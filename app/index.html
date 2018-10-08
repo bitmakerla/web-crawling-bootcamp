@@ -1,16 +1,544 @@
 ---
-layout: default
+layout: blank
 description: Your Beautiful Blog
 ---
 
-<h1>Recent Posts</h1>
-{% for post in site.posts limit:50 %}
-<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-<div class="preview">
-    {% if post.description %}
-    <span class="body">{{ post.description | strip_html | truncatewords: 300 }}</span>
-    {% else %}
-    <span class="body">{{ post.excerpt | strip_html }}</span>
-    {% endif %}
-</div>
-{% endfor %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bitmaker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    {% asset main.scss %}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light container ">
+    <!--<a class="bit navbar-brand" href="">BIT</a><a class="maker" href="">MAKER</a> <img src="" alt=""> -->
+    <a href="" class="bit navbar-brand" href="">
+        {% asset logo-Rounded.png width=150 %}
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto"></div>
+        <form action="" class="form-inline my-7 my-lg-0" >
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">HOME<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#soluciones">SOLUCIONES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#goal">META</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        TEMAS Y TALLERES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#themes">Temas</a>
+                        <a class="dropdown-item" href="#themes">Talleres</a>
+                </li>
+            </ul>
+            <button class="btn btn-light applynow"><a href="#apply" class="dropdown-item apply-btcm">APLICA AHORA</a></button>
+        </form>
+
+    </div>
+</nav>
+<section class="home-black text-center">
+    <div class="home">
+        <h2>Bootcamp</h2><br>
+        <h1>Cambia tu vida: aprende data science</h1>
+        <br>
+        <h6>Conoce las oportunidades que tenemos para ti</h6>
+        <br>
+        <a href="">
+            <button type="button" class="btn btn-lg btn-light home-buttom" data-aos="zoom-in"
+                    data-aos-duration="9000" >Explora nuestro programa</button>
+        </a>
+        <button type="button" class="btn btn-lg btn-light home-register" data-aos="zoom-in"
+                data-aos-duration="9000" ><a href="#apply" class="dropdown-item register">¡Aplica ahora!</a></button>
+    </div>
+</section>
+<section class="container-fluid" id="home">
+    <div class="row">
+        <div class="col-sm-7 item-title-section">
+            <div class="pull-right">
+                <span class="letters-gray">QUIENES</span><span class="letters-green"> SOMOS</span>
+            </div>
+        </div>
+        <div class="col-sm-5"></div>
+    </div>
+    <div class="text-center logo-bitmaker">
+        {% asset icon-bm.png width=60 %}
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 contenedor-box" >
+                <div class="container">
+                    <!-- <img src="img/Comillas.png" width="30" alt="">-->
+                    <p data-aos="zoom-in-up"
+                       data-aos-duration="2000">Bitmaker no es solo un bootcamp; es un cambio en la experiencia de tu vida. Contamos con inserción laboral a alumnos o egresados, de la carrera de Ciencias de la Computación, que culminen sus estudios con nosotros; permitiendo triplicar sus ingresos, transformar sus vidas y desarrollarse con expertos.</p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                {% asset work-datasciencie.jpg width=100% height=270 %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--<section class="container-fluid" id="soluciones">
+    <div class="row">
+        <div class="col-sm-5 "></div>
+        <div class="col-sm-7 item-title-section">
+            <div class="pull-left">
+                <span class="letters-gray">¿POR QUÉ</span><span class="letters-green"> BITMAKER?</span>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="row solutions">
+            <div class="col-sm-2 text-center icon-text right desktop">
+                <i class="fas fa-desktop"></i>
+                <h6>SET-UP</h6>
+            </div>
+            <div class="col-sm-8 description" data-aos="zoom-in-up"
+                                              data-aos-duration="2000">
+                <p>
+                    <ul>
+                        <li><p><span class="fa set">&#xf111;</span> Conviértete en un científico de datos en 3 meses.</p></li>
+                        <li><p><span class="fa set">&#xf111;</span> Aprende sobre Data Science and Web Designer, perfecciona tus capacidades con técnicas y herramientas para la toma de decisiones.</p></li>
+                        <li><p><span class="fa set">&#xf111;</span> Te introduciremos a poder obtener una perspectiva del conjunto masivo de datos y poder tener conocimiento para crear nuevos algoritmos y resolver problemas.</p></li>
+                    </ul>
+            </p>
+            </div>
+            <div class="col-sm-2">
+            </div>
+        </div>
+        <div class="row solutions">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-8 description pull-left " data-aos="zoom-in-up"
+                                                        data-aos-duration="2000">
+                <p>
+                    <ul>
+                        <li><p><span class="fa workflow">&#xf111;</span> Sin lugar a dudas hay una <b>manera óptima</b> de desarrollar productos web y te enseñaremos como.</p></li>
+                        <li><p><span class="fa workflow">&#xf111;</span> Workflow técnico implementado en las startups de éxito.</p></li>
+                        <li><p><span class="fa workflow">&#xf111;</span> Plan de estudios técnico y profesional optimizado, con instrucción y orientación de expertos.</p></li>
+                    </ul>
+                </p>
+            </div>
+            <div class="col-sm-2 text-center icon-text left braille">
+                <i class="fa fa-braille"></i>
+                <h6>WORKFLOW</h6>
+            </div>
+        </div>
+        <div class="row solutions">
+            <div class="col-sm-2 text-center icon-text right suitcase">
+                <i class="fas fa-suitcase"></i>
+                <h6>BOOTS</h6>
+            </div>
+            <div class="col-sm-8 description" data-aos="zoom-in-up"
+                                              data-aos-duration="2000">
+                <p>
+                    <ul>
+                        <li><p><span class="fa boots">&#xf111;</span> Te brindamos ofertas laborales, finalizando el bootcamp, con ingresos de más de <b> $1200 (dólares).</b></p></li>
+                        <li><p><span class="fa boots">&#xf111;</span> Impulsa tu carrera: Te impulsamos a encontrar un nuevo trabajo, triplicando tus ingresos.</p></li>
+                        <li><p><span class="fa boots">&#xf111;</span> Formarás parte de una calificada red internacional que crece a cada día!</p></li>
+
+                    </ul>
+                </p>
+            </div>
+            <div class="col-sm-2">
+            </div>
+        </div>
+    </div>
+</section>-->
+<section class="container-fluid section-goal" id="goal">
+    <div class="row">
+        <div class="col-sm-7 item-title-section">
+            <div class="pull-right ">
+                <span class="letters-gray">NUESTRA</span><span class="letters-green"> VISIÓN</span>
+            </div>
+        </div>
+        <div class="col-sm-5 ">
+        </div>
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-sm">
+                {% asset tableau.jpg width=100% height=180 %}
+                <div  data-aos="fade-up-right"
+                      data-aos-duration="2000">
+                    <p><b>Panorama</b></p>
+                    <p class="our-goal"><small>Lograr que con confianza defiendan las decisiones críticas, utilizando los resultados de sus análisis de datos.</small></p>
+                </div>
+            </div>
+            <div class="col-sm">
+                {% asset data-st.jpg width=100% height=180 %}
+                <div  data-aos="zoom-in-up"
+                      data-aos-duration="2000">
+                    <p><b>Habilidades, herramientas y estrategias</b></p>
+                    <p class="our-goal"><small>Uso de Excel, SQL Y Tableau para detectar tendencias e impulsar decisiones de negocios con datos del mundo real.</small></p>
+                </div>
+            </div>
+            <div class="col-sm">
+                {% asset work.jpg width=100% height=180 %}
+                <div  data-aos="fade-up-left"
+                      data-aos-duration="2000">
+                    <p><b>Analytics</b></p>
+                    <p class="our-goal"><small>Desarrollar y compartir ideas utilizando visualizacones de datos y cuadros de mando.</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+    <div class="container">
+        <div class="row ">
+            <div class="col-6 col-sm-6 text-center"><img src="img/goal-impulsa.jpg" width="50%" alt=""></div>
+            <div class="col-6 col-sm-6">
+                <div class="container">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa iure, nam impedit enim corrupti repudiandae harum id corporis explicabo laborum sed commodi aspernatur nisi beatae nulla rerum iste, expedita culpa.</p>
+                </div>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-6 col-sm-6">
+                <div class="container">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa iure, nam impedit enim corrupti repudiandae harum id corporis explicabo laborum sed commodi aspernatur nisi beatae nulla rerum iste, expedita culpa.</p>
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 text-center"><img src="img/goal-integra.jpg" width="50%" alt=""></div>
+            <div class="w-100"></div>
+            <div class="col-6 col-sm-6 text-center"><img src="img/goal-inspire (2).jpg" width="50%" alt=""></div>
+            <div class="col-6 col-sm-6">
+                <div class="container">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa iure, nam impedit enim corrupti repudiandae harum id corporis explicabo laborum sed commodi aspernatur nisi beatae nulla rerum iste, expedita culpa.</p>
+                </div>
+            </div>
+        </div>
+    </div>-->
+</section>
+<section class="container-fluid section-inf">
+    <div class="row">
+        <div class="col-lg-3 col-md-12 offset-lg-8 text-center">
+            <p><b><span class="fa">&#xf10d;</span> DATA SCIENCE ESTÁ LIDERANDO EL CAMINO PARA CAMBIAR LA FORMA EN QUE LAS PERSONAS Y LAS EMPRESAS TOMAN DECISIONES. CREA UN ENTORNO QUE CULTIVA LA CURIOSIDAD QUE COMPARTEN TODOS LOS GRANDES NARRADORES DE DATOS. <span class="fa">&#xf10e;</span></b></p>
+            <button class="btn btn-lg btn-light inf">APLICA AHORA</button>
+        </div>
+    </div>
+</section>
+<section class="container-fluid" >
+    <div class="row">
+        <div class="col-sm-7 item-title-section">
+            <div class="pull-right">
+                <span class="letters-gray">¿CÓMO</span><span class="letters-green"> FUNCIONA?</span>
+            </div>
+        </div>
+        <div class="col-sm-5"></div>
+    </div>
+    <div class="container ">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="th">
+                        <b>BOOTCAMP</b>
+                        <p>Aprendizaje de 3 meses intensivos (de lunes a viernes, 8hs presenciales).</p>
+                        <p><small>Al culminar tus estudios con nosotros te conseguiremos trabajo en la industria tech.</small></p>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="th">
+                        <b>RED DE EGRESADOS</b>
+                        <p>Al ser parte de la Red de Egresados del Bootcamp Bitmaker podrás acceder a beneficios, talleres, capacitaciones, eventos, proyectos, pertenecer a la red laboral de Bitmaker.</p>
+                        <p><small>Egresado, mantente en contacto con nosotros para poder acceder a beneficios que tenemos para ti que iremos informandote durante el año, que ayudarán a tu crecimiento profesional y desarrollo personal. </small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="">
+    <div class="row">
+        <div class="col-sm-5 "></div>
+        <div class="col-sm-7 item-title-section">
+            <div class="pull-left">
+                <span class="letters-gray">LO QUE</span><span class="letters-green"> APRENDERÁS</span>
+            </div>
+        </div>
+    </div>
+    <div class="text-center item-title-section contact-ttl  text-center">
+        <span class="letters">PROCESO DE APLICACIÓN</span><br>
+    </div>
+    <div class="container">
+        <p class="text-center">Estudiantes con conocimiento básico de Ciencias de la Computación. Tú puedes ser parte de este bootcamp.</p>
+    </div>
+    <div class="process" id="apply-update">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p><b>PASOS PARA APLICAR</b></p>
+                    <ol>
+                        <li id="apply"><b>APLICA</b>
+                            <p class="program">Llenar el form principal, <a href="" class="update"><small>puedes ingresar aquí</small></a>. En comentarios, cuentanos sobre ti y porqué quieres unirte a nuestro Bootcamp.</p>
+                        </li>
+                        <li id="admin"><b>ENTREVISTA DE ADMISIÓN</b>
+                            <p class="program">Conversa con un asesor de admisión, la entrevista no es explícitamente técnica. Es una oportunidad para que nos conozcamos un poco. </p>
+                        </li>
+                        <li id="review"><b>REVISIÓN TÉCNICA</b>
+                            <p class="program">Luego, los estudiantes podrán iniciar el curso asistiendo a una sesión en vivo con un instrucor para evaluar su comprensión básica del material. ¡Podremos avanzar!¡Empecemos!</p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-sm-4">
+                    <p><b>PASOS PARA APLICAR</b></p>
+                    <ol>
+                        <li id="apply"><b>APLICA</b>
+                            <p class="program">Llenar el form principal, <a href="" class="update"><small>puedes ingresar aquí</small></a>. En comentarios, cuentanos sobre ti y porqué quieres unirte a nuestro Bootcamp.</p>
+                        </li>
+                        <li id="admin"><b>ENTREVISTA DE ADMISIÓN</b>
+                            <p class="program">Conversa con un asesor de admisión, la entrevista no es explícitamente técnica. Es una oportunidad para que nos conozcamos un poco. </p>
+                        </li>
+                        <li id="review"><b>REVISIÓN TÉCNICA</b>
+                            <p class="program">Luego, los estudiantes podrán iniciar el curso asistiendo a una sesión en vivo con un instrucor para evaluar su comprensión básica del material. ¡Podremos avanzar!¡Empecemos!</p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-sm-4">
+                    <p><b>PASOS PARA APLICAR</b></p>
+                    <ol>
+                        <li id="apply"><b>APLICA</b>
+                            <p class="program">Llenar el form principal, <a href="" class="update"><small>puedes ingresar aquí</small></a>. En comentarios, cuentanos sobre ti y porqué quieres unirte a nuestro Bootcamp.</p>
+                        </li>
+                        <li id="admin"><b>ENTREVISTA DE ADMISIÓN</b>
+                            <p class="program">Conversa con un asesor de admisión, la entrevista no es explícitamente técnica. Es una oportunidad para que nos conozcamos un poco. </p>
+                        </li>
+                        <li id="review"><b>REVISIÓN TÉCNICA</b>
+                            <p class="program">Luego, los estudiantes podrán iniciar el curso asistiendo a una sesión en vivo con un instrucor para evaluar su comprensión básica del material. ¡Podremos avanzar!¡Empecemos!</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--<section class="container-fluid" id="themes">
+    <div class="row">
+        <div class="col-sm-5 "></div>
+        <div class="col-sm-7 item-title-section">
+            <div class="pull-left">
+                <span class="letters-gray">LO QUE</span><span class="letters-green"> APRENDERÁS</span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+            <div class="row ">
+                <div class="col-sm">
+                    <div class="container themes text-center" data-aos="zoom-in-up"
+                                                  data-aos-duration="2000">
+                        <p class="text-center"><b>TEMAS</b></p>
+                        <ul>
+                            <li><p>Exploración y análisis de datos - Narraciones de datos.</p></li>
+                            <li><p>Probabilidad y estadística para la ciencia de los datos.</p></li>
+                            <li><p>Gestión de datos con SQL.</p></li>
+                            <li><p>Aprendizaje automático y Big Data.</p></li>
+                            <li><P>Aprendizaje automático y aprendisaje profundo</P></li>
+                            <li><p>Comunicar análisis de datos con Tableau.</p></li>
+                            <li><p>Proyectos de ciencias de datos.</p></li>
+                        </ul>
+                        <button type="button" class="btn btn-light btn-lg btn-block btn-dtl "><small class="ms-info">Más información</small></button>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="container themes text-center" data-aos="zoom-in-up"
+                                                    data-aos-duration="2000">
+                        <p class="text-center"><b>TALLERES</b></p>
+                        <ul>
+                            <li><p>Aplicación de estadísticas para análisis de datos.</p></li>
+                            <li><p>Narraciones de datos.</p></li>
+                            <li><p>Escritura eficiente, consultas dinámicas y subconsultas (SQL)</p></li>
+                            <li><p>Análisis de texto y sentimiento en Tableau.</p></li>
+                            <li><p>Diseño de paneles de datos.</p></li>
+                            <li><p>Conocer nuevas herramientas para análisis de datos</p></li>
+                            <li><p>Proyectos.</p></li>
+                        </ul>
+                        <button type="button" class="btn btn-light btn-lg btn-block btn-dtl"><small class="ms-info">Más información</small></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>-->
+<section class="work">
+</section>
+<section class="container-fluid" id="squad">
+    <div class="row">
+        <div class="col-sm-7 item-title-section section-grp">
+            <div class="pull-right">
+                <span class="letters-gray text-section-grp">NUESTRO</span><span class="letters-green text-section-grp"> EQUIPO</span>
+            </div>
+        </div>
+        <div class="col-sm-5"></div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <div class="triangle-isosceles" data-aos="zoom-in-up"
+                     data-aos-duration="2000">
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum esse aliquid vitae quae sed modi animi, saepe error repellat dolor obcaecati, perspiciatis aspernatur deleniti et ipsam natus sunt recusandae!"</p>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <h6 class="th-user">RAUL LALALA</h6><small>Instructor Principal</small>
+                <div class="text-center">
+                    {% asset teacher.jpg width=150 %}
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="row justify-content-center">
+            <div class="col-sm-2 ipad-responsive">
+                <h6 class="th-user">RAUL LALALA</h6><small>Instructor</small>
+                <div class="text-center">
+                    {% asset teacher.jpg width=150 %}
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="triangle-isosceles triangle-left" data-aos="zoom-in-up"
+                     data-aos-duration="2000">
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum esse aliquid vitae quae sed modi animi, saepe error repellat dolor obcaecati, perspiciatis aspernatur deleniti et ipsam natus sunt recusandae!"</p>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <div class="triangle-isosceles " data-aos="zoom-in-up"
+                     data-aos-duration="2000">
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum esse aliquid vitae quae sed modi animi, saepe error repellat dolor obcaecati, perspiciatis aspernatur deleniti et ipsam natus sunt recusandae!"</p>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <h6 class="th-user">RAUL LALALA</h6><small>Instructor</small>
+                <div class="text-center ">
+                    {% asset teacher width=150 %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section><br>
+<section >
+    <div class="text-center item-title-section contact-ttl  text-center">
+        <span class="letters-gray">APLICA AHORA</span><br>
+    </div>
+    <div  class="contact-stc" id="apply">
+        <h6 class="text-center">BIENVENIDO AL PORTAL DE ADMISIONES DEL BOOTCAMP DE BITMAKER</h6>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <form action="" name="registration">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">NOMBRE *</label>
+                            <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu nombre completo...">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">EMAIL *</label>
+                            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu correo...">
+                        </div>
+                        <form id="test_form">
+                            <button class="btn btn-light" id="filebutton" onclick="show()">Subir cv</button><span><small>Subir formato PDF</small></span>
+                            <input  class="file" type="file" id="test" name="file">
+                            <div id = "myDiv" style="display:none">
+                                {% asset loading.gif id="myImage" width=20 %}
+                            </div><br>
+                        </form>
+                    </form>
+                </div>
+                <div class="col-sm-6" data-aos="zoom-in-up"
+                     data-aos-duration="2000">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleTextarea">MENSAJE</label>
+                            <textarea class="form-control" id="exampleTextarea" rows="6" placeholder="Dejanos tu mensaje..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-light button-send">Regístrate</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="container-fluid">
+    <div class="row justify-content-center">
+        <div class=" media">
+            <ul class="">
+                <li><i class="fab fa-facebook-f i-footer"></i></li>
+                <li><i class="fab fa-linkedin-in i-footer"></i></li>
+                <li><i class="fab fa-instagram i-footer"></i></li>
+            </ul>
+        </div>
+    </div>
+    <div class="www-footer">www.bitmaker.co</div>
+</footer>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+    AOS.init();
+
+    $("#filebutton").click(function() {
+        $("#test").click();
+    })
+
+    $('#test').change(function() {
+        $('#test_form').submit();
+    });
+
+
+    function show() {
+        document.getElementById("myDiv").style.display="inline";
+        setTimeout("hide()", 10000);
+    }
+
+    function hide() {
+        document.getElementById("myDiv").style.display="none";
+    }
+
+    $(function(){
+        $("form[name='registration']").validate({
+            rules:{
+                name: "required",
+                email: {
+                    required: true,
+                    email: true
+                }
+            },
+            messages:{
+                name: "Por favor, ingrese su nombre",
+                email:"Por favor, ingrese un email valido"
+            },
+            submitHandler: function(form) {
+                form.submit();
+            }
+        });
+    });
+</script>
+</html>
+
+3 meses
+presencial, arequipa
+1000$ a + - ofertas laborales
+ciencias de la computacion
+bootcamp data science and web designer
+
+
+

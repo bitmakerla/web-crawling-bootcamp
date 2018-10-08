@@ -33,6 +33,7 @@ assets:
     - "assets/css"
     - "assets/images"
     - "assets/js"
+    - "assets/fonts"
 
 plugins:
   - jekyll-feed
