@@ -24,7 +24,7 @@ to build static files from jekyll:
         ruby:2.3 \
         sh -c 'bundle install \
             --path vendor/bundle \
-            && bundle exec jekyll build --watch'
+            && bundle exec jekyll build'
 
 later copy files to nginx static folder:
 
