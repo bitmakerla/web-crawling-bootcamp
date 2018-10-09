@@ -1,5 +1,18 @@
 # Web Crawling Bootcamp Site
 
+### DEVELOPMENT
+
+install `jekyll` and `bundler`:
+
+    gem install jekyll bundler
+    
+later install necessary packages:
+
+    bundle install
+    
+now you are ready to serve the site (it will appear in `http://localhost:4000`):
+
+    bundle exec jekyll serve 
 
 ### PRODUCTION
 
