@@ -42,7 +42,7 @@ redsmall: Egresado, mantente en contacto con nosotros para poder acceder a benef
 
 tolearntitle: LO QUE
 tolearntl: APRENDERÁS
-titleLearn: PROCESO DE APLICACIÓN
+titleLearn: TEMAS Y TALLERES
 
 squadtitle: NUESTRO
 squadtl: EQUIPO
