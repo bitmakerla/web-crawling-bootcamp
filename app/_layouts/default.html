@@ -1,69 +1,22 @@
-<!DOCTYPE html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
-<head>
-    <meta charset="utf-8">
-    {% asset main.scss %}
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Your Blog</title>
-
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta property="og:url" content="{{ site.url }}{{ page.url | remove_first:'index.html' }}">
-    <meta property="og:site_name" content="blog.your-domain.com">
-
-    {% if page.title %}
-    <meta property="og:title" content="{{ page.title }}">
-    {% endif %}
-
-    {% if page.description %}
-    <meta name="description" content="{{ page.description }}">
-    <meta name="og:description" content="{{ page.description }}">
-    {% else if page.excerpt %}
-    <meta name="description" content="{{ page.excerpt | strip_html | truncatewords: 25 }}">
-    <meta name="og:description" content="{{ page.excerpt | strip_html | truncatewords: 25 }}">
-    {% endif %}
-
-    {% if page.og_image_url %}
-    <meta property="og:image" content="{{ page.og_image_url }}">
-    {% else if page.photo_url %}
-    <meta property="og:image" content="{{ page.photo_url }}">
-    {% endif %}
-
-    {% if page.keywords %}
-    <meta name="keywords" content="{{ page.keywords | join: ', ' }}" />
-    {% endif %}
-
-    {% if page.date %}
-    <meta property="og:type" content="article">
-    <meta property="article:published_time" content="{{ page.date | date: "%Y-%m-%d" }}">
-    {% endif %}
-
-    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-
-</head>
-<body>
-
-<nav class="navbar navbar-default navbar-static-top">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Your Blog</a>
-        </div>
-    </div><!-- /.container -->
-</nav>
-
-<div class="container">
-
-    {{ content }}
-
-</div>
-
-</body>
+<!doctype html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include navigation.html %}
+    {% include header.html %}
+    {% include home.html %}
+    {% include vision.html %}
+    {% include Aplysection.html %}
+    {% include sistema.html %}
+    {% include tolearn.html %}
+    <section class="work">
+    </section>
+    {% include squad.html %}
+    {% include contact.html %}
+    <section class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2706.2223262692933!2d-71.53986467266154!3d-16.415869360715686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424aefdfc26a1f%3A0x564874acb4a2f126!2sAmatistas+402%2C+Arequipa!5e0!3m2!1ses!2spe!4v1539633569379" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section>
+    {% include footer.html %}
+  </body>
+  {% include script.html %}
 </html>

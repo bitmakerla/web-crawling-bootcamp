@@ -1,29 +1,35 @@
+<style>
 @charset "UTF-8";
 @font-face{
     font-family:'Anke';
-    src:asset_url("Anke.otf");
+    src:url("../assets/font/Anke.otf");
 }
 @font-face{
     font-family:'google';
-    src:asset_url("google.ttf");
+    src:url("google.ttf");
 }
 @font-face{
     font-family:'helvReg';
-    src:asset_url("HELR45W.ttf");
+    src:url("HELR45W.ttf");
 }
 @font-face{
     font-family:'helvetica';
-    src:asset_url("helvmn.ttf");
+    src:url("helvmn.ttf");
 }
 @font-face{
     font-family:'lemon';
-    src:asset_url("lemon.ttf");
+    src:url("../assets/font/lemon.ttf");
 }
 
 *{
     margin: 0;
     box-sizing: border-box;
 }
+
+.current {
+    color: green;
+}
+
 /*nav------------------------------*/
 ul.navbar-nav.mr-auto{
     text-align: center;
@@ -42,7 +48,7 @@ a.apply-btcm:active{
 }
 /*home------------------------------*/
 section.home-black{
-    background-image: asset_url("homeport.png");
+   background-image: url("../assets/images/homeport.png");
     height: 550px;
     width: 100%;
     background-repeat: no-repeat;
@@ -97,7 +103,12 @@ ul{
     list-style-type: none;
     padding-left: 0;
 }
-
+.th{
+    background: #00ff99d5;
+    border-radius: 25px;
+    padding: 0.85rem;
+    justify-content: center;
+}
 /*section---------------------------*/
 section{
     margin-bottom: 6rem;
@@ -156,11 +167,11 @@ span.fa{
 }
 /*section-inf-------------------------*/
 .section-inf{
-    background-image: asset_url("section-inf.jpg");
+    background-image: url("../assets/images/section.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
-    height: 400px;
+    height: 460px;
     color: #fff;
     padding-top: 50px;
     margin-bottom: 0;
@@ -186,16 +197,23 @@ button.btn.btn-lg.btn-light{
     font-weight: 500;
     border-color: transparent;
     text-transform: initial;
+    border-radius: 20px;
+    font-size: 15px;
 }
 
 button.btn.btn-lg.btn-light:active{
     background: #ff5733;
+}
+/*sistem*/
+section .sistem-bitm{
+    margin-top: 57px;
 }
 /*section-goal-------------------------*/
 .section-goal{
     background: #f1f1f1;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-bottom: 0;
 }
 
 /*section courses----------------------*/
@@ -271,6 +289,9 @@ img.aos-init.aos-animate{
     border-radius: 100px;
 }
 /*section-contact-------------------------*/
+section.contact, section.map{
+    margin-bottom: 0;
+}
 .contact-ttl{
     background: transparent;
     box-shadow: none;
@@ -280,9 +301,9 @@ img.aos-init.aos-animate{
     color: #bebebe;
 }
 .contact-stc{
-    background: #f1f1f1;
-    padding: 50px 0;
-    color: #6f6f77;
+    background: #ff5833bd;
+    padding: 80px;
+    color: #f1f1f1;
     font-family: anke;
     font-weight: normal;
 }
@@ -301,15 +322,36 @@ input.form-control, textarea.form-control{
     width: 100%;
     font-size: 15px ;
 }
+.btn-contact{
+    background: #f1f1f1 !important;
+    text-transform: uppercase !important;
+    color: #ff5733 !important;
+    font-weight: bold !important;
+}
+.btn-contact:hover{
+    background: #ff5733 !important;
+    text-transform: uppercase !important;
+    color: #fff !important;
+    font-weight: bold !important;
+}
 .button-send:hover{
     color: #6f6f77;
 }
+/*map--------------*/
+
 /*footer------------------------------*/
 footer{
-    background: #6f6f77;
-
+    background: #f1f1f1;
+    margin-top: -8px;
+    height: 150px;
+    }
+img.footer{
+   margin-top: 50px;
 }
-.i-footer{
+footer h6 small{
+    color: #6f6f77;
+}
+/*--.i-footer{
     color: #6f6f77;
     background: #fff;
     border-radius: 100px;
@@ -339,7 +381,7 @@ div.media{
 .media li{
     list-style-type: none;
     display: inline;
-}
+}--*/
 
 input.file{position:absolute; display: none;}
 
@@ -385,3 +427,21 @@ input.file{position:absolute; display: none;}
         margin-right:44px;
     }
 }
+</style>
+<section class="home-black text-center">
+    
+    <div class="home">
+        <h2>{{ page.titleHeader }}</h2><br>
+        <h1>{{ page.headerText }}</h1>
+        <br>
+        <h6>{{ page.text }}</h6>
+        <br>
+        <a href="">
+            <button type="button" class="btn btn-lg btn-light home-buttom" data-aos="zoom-in"
+                                                                           data-aos-duration="9000">{{ page.bttnh1 }}</button>
+        </a>
+        <button type="button" class="btn btn-lg btn-light home-register" data-aos="zoom-in"
+                                                                         data-aos-duration="9000"><a href="#apply" class="dropdown-item register">{{ page.apply }}</a></button>
+    </div>
+    <!---->
+</section>

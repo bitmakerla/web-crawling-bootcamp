@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: Soluciones
+  link: /soluciones.html
+- name: Meta
+  link: /meta.html
+- name: Temas
+  link: /theme.html
+- name: Talleres
+  link: /talleres.html
