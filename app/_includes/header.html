@@ -203,7 +203,7 @@ a.register{
 
 }
 a.register:hover{
-    background: #ff5733;
+    background: transparent;
 }
 /*section 2da-----------------------*/
 .icon-text{
@@ -226,7 +226,7 @@ span.fa{
 }
 /*section-inf-------------------------*/
 .section-inf{
-    background-image: url("../assets/images/section.jpg");
+    background-image: url("../assets/images/separator.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
@@ -251,17 +251,19 @@ button.btn.btn-lg.btn-light.home-register a{
     padding-bottom: 0;
 }
 button.btn.btn-lg.btn-light{
-    color: #fff;
-    background: #ff5733;
+    color: #ff5733;
+    background: transparent;
     font-weight: 500;
     border-color: transparent;
     text-transform: initial;
     border-radius: 20px;
     font-size: 15px;
+    border: 2px solid #ff5733;
 }
 
-button.btn.btn-lg.btn-light:active{
-    background: #ff5733;
+button.btn.btn-lg.btn-light:hover{
+    color: #b62b0c;
+    border: 2px solid #b62b0c;
 }
 /*sistem*/
 section .sistem-bitm{
@@ -276,6 +278,14 @@ section .sistem-bitm{
 }
 
 /*section courses----------------------*/
+section.tolearn{
+    background-image: url("../assets/images/home-middle-grid-xl.svg");
+    height: 1100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-bottom: 0;
+}
 div.themes{
     padding: 2rem 3rem 1.5rem;
     background: #f1f1f1;
@@ -290,15 +300,9 @@ button.btn.btn-light.btn-dtl{
 small.ms-info{
     color: #fff;
 }
+
 /*section work----------------------*/
-.work{
-    background-image: asset_url("work.jpg");
-    height: 350px;
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: top;
-}
+
 /*section grp-----------------------*/
 .section-grp{
     background: #6f6f77;
@@ -307,6 +311,9 @@ small.ms-info{
     color: #fff;
 }
 /*teacher section-------------------*/
+section#squad{
+    margin-top: -15rem;
+}
 .th-user{
     margin-top: 80px;
     margin-bottom: -6px;
@@ -360,7 +367,7 @@ section.contact, section.map{
     color: #bebebe;
 }
 .contact-stc{
-    background: #ff5833bd;
+    background: #31333e;
     padding: 80px;
     color: #f1f1f1;
     font-family: anke;
@@ -400,7 +407,6 @@ input.form-control, textarea.form-control{
 
 /*footer------------------------------*/
 footer{
-    background: #000;
     margin-top: -8px;
     height: 150px;
     }

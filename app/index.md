@@ -8,20 +8,21 @@ bttnh1: Explora nuestro programa
 
 apply: Empezar ahora
 
-navhome: HOME
-firstmenu: SOLUCIONES
-secondmenu: META
-thirdmenu: TEMA Y TALLERES
+navhome: Home
+firstmenu: Soluciones
+secondmenu: Bootcamp
+thirdmenu: Tema y Talleres
 sub-nav: Temas
 sub-nav1: Talleres
+empezar: Empezar
 
 hometitle: QUIENES
 hometl: SOMOS
 description: Contamos con inserción laboral a alumnos o egresados, de la carrera de Ciencias de la Computación, y continuar sus estudios con nosotros; colocandolos en nuestra red laboral permitiendo triplicar sus ingresos, transformar sus vidas y desarrollarse en Data Sciencie con un aprendizaje de 3 meses intensivos.
 
 
-section2title: NUESTRA
-section2tl: VISIÓN
+section2title: NUESTRAS
+section2tl: SOLUCIONES
 first: Panorama
 textfirst: Lograr que con confianza defiendan las decisiones críticas, utilizando los resultados de sus análisis de datos.
 second: Habilidades, herramientas y estrategias
