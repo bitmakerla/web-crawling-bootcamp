@@ -1,23 +1,23 @@
 @charset "UTF-8";
 @font-face{
     font-family:'Anke';
-    src:assets_url("Anke.otf");
+    src:asset_url("Anke.otf");
 }
 @font-face{
     font-family:'google';
-    src:assets_url("google.ttf");
+    src:asset_url("google.ttf");
 }
 @font-face{
     font-family:'helvReg';
-    src:assets_url("HELR45W.ttf");
+    src:asset_url("HELR45W.ttf");
 }
 @font-face{
     font-family:'helvetica';
-    src:assets_url("helvmn.ttf");
+    src:asset_url("helvmn.ttf");
 }
 @font-face{
     font-family:'lemon';
-    src:assets_url("lemon.ttf");
+    src:asset_url("lemon.ttf");
 }
 
 *{
@@ -53,7 +53,7 @@ a.apply-btcm:active{
 }
 /*home------------------------------*/
 section.home-black{
-   background-image: url("../assets/images/header-2.png");
+    background-image: asset_url("header-2.png");
     height: 940px;
     width: 100%;
     background-repeat: no-repeat;
@@ -225,7 +225,7 @@ span.fa{
 }
 /*section-inf-------------------------*/
 .section-inf{
-    background-image: url("../assets/images/separator.png");
+    background-image: asset_url("separator.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
@@ -278,7 +278,7 @@ section .sistem-bitm{
 
 /*section courses----------------------*/
 section.tolearn{
-    background-image: url("../assets/images/home-middle-grid-xl.svg");
+    background-image: asset_url("home-middle-grid-xl.svg");
     height: 1100px;
     background-size: cover;
     background-repeat: no-repeat;
