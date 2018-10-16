@@ -3,7 +3,7 @@ layout: default
 title: Bitmaker
 titleHeader: Bootcamp
 headerText: Explore. Move. Connect.
-text: Construye con data - Data Sciencie
+text: Hire the right developers, no matter the place latin american talent for the world.
 bttnh1: Explora nuestro programa
 
 apply: Empezar ahora
@@ -17,7 +17,7 @@ sub-nav1: Talleres
 
 hometitle: QUIENES
 hometl: SOMOS
-description: Contamos con inserción laboral a alumnos o egresados, de la carrera de Ciencias de la Computación, y continuar sus estudios con nosotros; permitiendo triplicar sus ingresos, transformar sus vidas y desarrollarse en Data Sciencie con un aprendizaje de 3 meses intensivos.
+description: Contamos con inserción laboral a alumnos o egresados, de la carrera de Ciencias de la Computación, y continuar sus estudios con nosotros; colocandolos en nuestra red laboral permitiendo triplicar sus ingresos, transformar sus vidas y desarrollarse en Data Sciencie con un aprendizaje de 3 meses intensivos.
 
 
 section2title: NUESTRA

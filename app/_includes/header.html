@@ -46,10 +46,16 @@ a.nav-link:hover, a.nav-item:hover{
 a.apply-btcm:active{
     background: transparent;
 }
+#navbarSupportedContent form ul li a{
+    color: #fff;
+}
+#navbarSupportedContent form ul li a.dropdown-item{
+    color: #6f6f77;
+}
 /*home------------------------------*/
 section.home-black{
-   background-image: url("../assets/images/homeport.png");
-    height: 550px;
+   background-image: url("../assets/images/header-2.png");
+    height: 940px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -60,7 +66,9 @@ section.home-black{
     font-family: "lemon";
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    margin-top:-80px;
+
 }
 
 section.home{
@@ -71,6 +79,57 @@ section.home{
     font-family: anke;
     color: #ff5733;
 }
+/*header separator*/
+.pixel-loader {
+  width: 10px;
+  height: 10px;
+  margin-top: -36px !important;
+  background: #6f6f77;
+  color: #e0dede;
+  margin: 80px auto;
+  box-shadow: 15px 15px 0 0,
+              -15px -15px 0 0,
+              15px -15px 0 0,
+              -15px 15px 0 0,
+              0 15px 0 0,
+              15px 0 0 0,
+              -15px 0 0 0,
+              0 -15px 0 0;
+  animation: anim 4s linear infinite;
+}
+
+@keyframes anim {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  50% {
+    box-shadow: 20px 20px 0 0,
+                -20px -20px 0 0,
+                20px -20px 0 0,
+                -20px 20px 0 0,
+                0 10px 0 0,
+                10px 0 0 0,
+                -10px 0 0 0,
+                0 -10px 0 0;
+  }
+  
+  75% {
+    box-shadow: 20px 20px 0 0,
+                -20px -20px 0 0,
+                20px -20px 0 0,
+                -20px 20px 0 0,
+                0 10px 0 0,
+                10px 0 0 0,
+                -10px 0 0 0,
+                0 -10px 0 0;
+  }
+  
+  100% {
+    transform: rotate(360deg);
+    -webkit-filter: hue-rotate(360deg);
+  }
+}
+
 /*common-----------------------*/
 p{
     font-size: 17px;
@@ -341,7 +400,7 @@ input.form-control, textarea.form-control{
 
 /*footer------------------------------*/
 footer{
-    background: #f1f1f1;
+    background: #000;
     margin-top: -8px;
     height: 150px;
     }
@@ -434,7 +493,7 @@ input.file{position:absolute; display: none;}
         <h2>{{ page.titleHeader }}</h2><br>
         <h1>{{ page.headerText }}</h1>
         <br>
-        <h6>{{ page.text }}</h6>
+        <h4>{{ page.text }}</h4>
         <br>
         <a href="">
             <button type="button" class="btn btn-lg btn-light home-buttom" data-aos="zoom-in"
@@ -444,4 +503,6 @@ input.file{position:absolute; display: none;}
                                                                          data-aos-duration="9000"><a href="#apply" class="dropdown-item register">{{ page.apply }}</a></button>
     </div>
     <!---->
+    
 </section>
+<div class="pixel-loader"></div>
