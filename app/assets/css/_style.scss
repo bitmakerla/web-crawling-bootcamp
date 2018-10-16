@@ -52,6 +52,9 @@ a.apply-btcm:active{
 #navbarSupportedContent form ul li a.dropdown-item{
     color: #6f6f77;
 }
+#navbarSupportedContent form ul li a.dropdown-item:active{
+    background: #fff;
+}
 /*home------------------------------*/
 section.home-black{
     background-image: asset_url("header-2.png");
