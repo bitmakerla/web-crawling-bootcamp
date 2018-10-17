@@ -57,7 +57,7 @@ a.apply-btcm:active{
 }
 /*home------------------------------*/
 section.home-black{
-    background-image: asset_url("header-2.png");
+    background-image: asset_url("bootd.png");
     height: 940px;
     width: 100%;
     background-repeat: no-repeat;
@@ -144,7 +144,7 @@ section.home{
 
 /*common-----------------------*/
 p{
-    font-size: 17px;
+    font-size: 18px;
     margin: 24px 0;
 }
 i{
@@ -230,29 +230,34 @@ a.register:hover{
 .icon-text.right{
     border-right: 3px solid #efefef;
 }
-.solutions{
-    margin-bottom: 3rem;
-}
+
 span.fa{
     color: #efefef;
 }
-/*section-inf-------------------------*/
+/*section-inf--------------
 .section-inf{
-    background-image: asset_url("separator.png");
-    background-attachment: fixed;
+    background-image: asset_url("bots.gif");
     background-size: cover;
     background-position: top;
-    height: 460px;
+    height: 700px;
     color: #fff;
     padding-top: 50px;
     margin-bottom: 0;
     display: flex;
     justify-content: center;
 
+}-----------*/
+.bots{
+    border-radius: 1000px;
+
 }
-.section-inf p{
-    font-size: 20px;
+.section-inf .text-section-inf{
+    margin-top: 5em;
+}
+.section-inf p.theme{
     text-transform: uppercase;
+    color: #6f6f77;
+    font-size: 20px;
 }
 button.btn.btn-lg.btn-light.home-buttom{
     background: #f1f1f1;
@@ -286,7 +291,6 @@ section .sistem-bitm{
     background: #f1f1f1;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-bottom: 0;
 }
 
 /*section courses----------------------*/

@@ -30,7 +30,8 @@ textsecond: Uso de Excel, SQL Y Tableau para detectar tendencias e impulsar deci
 Third: Analytics
 textThird: Desarrollar y compartir ideas utilizando visualizacones de datos y cuadros de mando.
 
-aplysection: DATA SCIENCE ESTÁ LIDERANDO EL CAMINO PARA CAMBIAR LA FORMA EN QUE LAS PERSONAS Y LAS EMPRESAS TOMAN DECISIONES. CREA UN ENTORNO QUE CULTIVA LA CURIOSIDAD QUE COMPARTEN TODOS LOS GRANDES NARRADORES DE DATOS. 
+data: Data Sciencie
+aplysection: Liderando el camino para cambiar la forma en que las personas y las empresas toman decisiones. Crea un entorno que cultiva la curiosisdad que comparten los narradores de datos. 
 
 sistematitle: ¿CÓMO 
 sistematl: FUNCIONA?
