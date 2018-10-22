@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bitmaker
-titleHeader: Bootcamp
+titleHeader: BOOTCAMP
 headerText: Explore. Move. Connect.
 text: Hire the right developers, no matter the place latin american talent for the world.
 bttnh1: Explora nuestro programa
@@ -39,11 +39,14 @@ bootcamp: Aprendizaje de 3 meses intensivos (de lunes a viernes, 8hs presenciale
 bootsmall: Al culminar tus estudios con nosotros te conseguiremos trabajo en la industria tech.
 red: RED DE EGRESADOS
 redbootcamp: Al ser parte de la Red de Egresados del Bootcamp Bitmaker podrás acceder a beneficios, talleres, capacitaciones, eventos, proyectos, pertenecer a la red laboral de Bitmaker.
-redsmall: Egresado, mantente en contacto con nosotros para poder acceder a beneficios que tenemos para ti que iremos informandote durante el año, que ayudarán a tu crecimiento profesional y desarrollo personal. 
+redsmall: Egresado, mantente en contacto con nosotros para poder acceder a beneficios que tenemos para ti 
 
 tolearntitle: LO QUE
 tolearntl: APRENDERÁS
 titleLearn: TEMAS Y TALLERES
+themes: Themes
+workshops: Workshops
+others: Others
 
 squadtitle: NUESTRO
 squadtl: EQUIPO

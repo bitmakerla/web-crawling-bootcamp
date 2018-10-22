@@ -18,21 +18,31 @@ AOS.init();
         document.getElementById("myDiv").style.display="none";
     }
 
-    $(function(){
-        $("form[name='registration']").validate({
-            rules:{
-                name: "required",
-                email: {
-                    required: true,
-                    email: true
-                }
+//jquery validation
+
+    jQuery.validator.setDefaults({
+        debug: true,
+        success: "valid"
+      });
+      
+    $("#registration").validate({
+        rules:{
+            name: "required",
+            email: {
+                required: true,
+                email: true
             },
-            messages:{
-                name: "Por favor, ingrese su nombre",
-                email:"Por favor, ingrese un email valido"
-            },
-            submitHandler: function(form) {
-                form.submit();
+            field:{
+                required: true,
+                extension: 'pdf'
             }
-        });
+        },
+        messages:{
+            name: "Por favor, ingrese su nombre",
+            email:"Por favor, ingrese un email valido",
+            field: "Por favor, ingrese su cv"
+        },
+        submitHandler: function(form) {
+            form.submit();
+        }
     });

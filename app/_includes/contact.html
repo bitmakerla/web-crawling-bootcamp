@@ -4,11 +4,10 @@
     </div>
     <h6 class="text-center">{{ page.contacto }} </h6>
     <div  class="contact-stc" id="apply">
-      
         <div class="container">
-            <div class="row">
+            <form action="" name="registration" id="registration">
+                <div class="row">
                 <div class="col-sm-6">
-                    <form action="" name="registration">
                         <div class="form-group">
                             <label for="exampleInputEmail1">{{ page.user }} </label>
                             <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu nombre completo...">
@@ -17,26 +16,23 @@
                             <label for="exampleInputEmail1">{{ page.email }} </label>
                             <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresa tu correo...">
                         </div>
-                        <form id="test_form">
                             <button class="btn btn-light" id="filebutton" onclick="show()">{{ page.file }} </button><span><small>{{ page.adjunt }} </small></span>
                             <input  class="file" type="file" id="test" name="file">
                             <div id = "myDiv" style="display:none">
                             
                             </div><br>
-                        </form>
-                    </form>
                 </div>
                 <div class="col-sm-6">
-                    <form>
                         <div class="form-group">
                             <label for="exampleTextarea">{{ page.message }} </label>
                             <textarea class="form-control" id="exampleTextarea" rows="7" placeholder="Dejanos tu mensaje..." data-aos="zoom-in-up"
                                                                                                                              data-aos-duration="2000"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-lg btn-light button-send btn-contact">{{ page.register }} </button>
-                    </form>
+                        <button type="submit"  class="btn btn-lg btn-light button-send btn-contact">{{ page.register }} </button>
+                  
                 </div>
             </div>
+        </form>
         </div>
     </div>
 </section>

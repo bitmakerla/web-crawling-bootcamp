@@ -294,42 +294,36 @@ section .sistem-bitm{
 }
 
 /*section courses----------------------*/
-section.tolearn{
-    background-image: asset_url("home-middle-grid-xl.svg");
-    height: 1100px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    margin-bottom: 0;
-}
-div.themes{
-    padding: 2rem 3rem 1.5rem;
-    background: #f1f1f1;
-    border-radius: 44px;
-    width: 70%;
-
-}
-button.btn.btn-light.btn-dtl{
-    padding-top: 0;
-    padding-bottom: 0;
-}
-small.ms-info{
-    color: #fff;
-}
 
 /*section work----------------------*/
 
 /*section grp-----------------------*/
+section.tolearn{
+    background-image: asset_url("home-middle-grid-xl.svg");
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    margin-bottom: 0;
+    background-attachment: fixed;
+}
 .section-grp{
     background: #6f6f77;
 }
 .text-section-grp{
     color: #fff;
 }
-/*teacher section-------------------*/
-section#squad{
-    margin-top: -15rem;
+.twothers{
+    width: 25rem;
+    display: block;
+    margin: auto;
+    border: 8px solid #fdfbfb;
+    background: #fff;
+    margin-bottom: 50px;
 }
+/*teacher section-------------------*/
+
+
 .th-user{
     margin-top: 80px;
     margin-bottom: -6px;
@@ -452,6 +446,10 @@ input.file{position:absolute; display: none;}
         width: 100%;
         margin-bottom: 20px;
     }
+    .twothers{
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }
 @media only screen and (min-width: 320px) and (max-width: 568px){
     .triangle-isosceles.triangle-left:after {
@@ -467,6 +465,10 @@ input.file{position:absolute; display: none;}
         width: 100%;
         margin-bottom: 20px;
     }
+    .twothers{
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px){
 
@@ -476,5 +478,9 @@ input.file{position:absolute; display: none;}
     }
     div.col-sm-2.ipad-responsive{
         margin-right:44px;
+    }
+    .twothers{
+        width: 100%;
+        margin-bottom: 10px;
     }
 }

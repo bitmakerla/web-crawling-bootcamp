@@ -9,55 +9,43 @@
         </div>
         <div class="container" data-aos="zoom-in-up"
                                data-aos-duration="2000">
-            <p class="text-center">{{ page.titleLearn }}</p>
+            <p class="text-center"><b>{{ page.titleLearn }}</b></p>
         </div>
         <div class="process text-center" id="apply-update">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-sm-4">
-                        <p><b></b></p>
-                        <ol data-aos="zoom-in-up"
-                            data-aos-duration="2000">
-                            <li id="apply"><b></b>
-                                <p class="program"><a href="" class="update"><small>temas</small></a></p>
-                            </li>
-                            <li id="admin"><b></b>
-                                <p class="program"><a href="" class="update"><small>temas</small></a></p>
-                            </li>
-                            <li id="review"><b></b>
-                                <p class="program"><a href="" class="update"><small>temas</small></a></p>
-                            </li>
-                        </ol>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="twothers">
+                            <p><b>{{ page.themes }}</b></p>
+                            <div data-aos="zoom-in-up"
+                                data-aos-duration="2000">
+                                    {% for item in site.data.tolearn %}
+                                        <p> {{ item.themes }}</p>
+                                    {% endfor %}
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-4">
-                        <p><b></b></p>
-                        <ol data-aos="zoom-in-up"
-                            data-aos-duration="2000">
-                            <li id="apply"><b></b>
-                                <p class="program"><a href="" class="update"><small>talleres</small></a></p>
-                            </li>
-                            <li id="admin"><b></b>
-                                <p class="program"><a href="" class="update"><small>temas</small></a></p>
-                            </li>
-                            <li id="review"><b></b>
-                                <p class="program"><a href="" class="update"><small>temas</small></a></p>
-                            </li>
-                        </ol>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="twothers">
+                            <p><b>{{ page.workshops }}</b></p>
+                            <div data-aos="zoom-in-up"
+                                data-aos-duration="2000">
+                                    {% for item in site.data.tolearn %}
+                                        <p> {{ item.workshops }}</p>
+                                    {% endfor %}
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-4">
-                        <p><b></b></p>
-                        <ol data-aos="zoom-in-up"
-                            data-aos-duration="2000">
-                            <li id="apply"><b></b>
-                                <p class="program"><a href="" class="update"><small>dfdfgd</small></a></p>
-                            </li>
-                            <li id="admin"><b></b>
-                                <p class="program"><a href="" class="update"><small>temas</small></a></p>
-                            </li>
-                            <li id="review"><b></b>
-                                <p class="program"><a href="" class="update"><small>temas</small></a></p>
-                            </li>
-                        </ol>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="twothers">
+                            <p><b>{{ page.others }}</b></p>
+                            <div data-aos="zoom-in-up"
+                                data-aos-duration="2000">
+                                    {% for item in site.data.tolearn %}
+                                        <p> {{ item.others }}</p>
+                                    {% endfor %}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
