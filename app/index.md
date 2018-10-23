@@ -18,7 +18,7 @@ empezar: Empezar
 
 hometitle: QUIENES
 hometl: SOMOS
-description: Contamos con inserción laboral a alumnos o egresados, de la carrera de Ciencias de la Computación, y continuar sus estudios con nosotros; colocandolos en nuestra red laboral permitiendo triplicar sus ingresos, transformar sus vidas y desarrollarse en Data Sciencie con un aprendizaje de 3 meses intensivos.
+description: Contamos con inserción laboral a alumnos o egresados, de la carrera de Ciencias de la Computación, y continuar sus estudios con nosotros; colocándolos en nuestra red laboral. <b>Permitiendo triplicar sus ingresos</b>, transformar sus vidas y desarrollarse en Data Sciencie con un aprendizaje de 3 meses intensivos.
 
 
 section2title: NUESTRAS
