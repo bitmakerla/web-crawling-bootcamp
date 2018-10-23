@@ -3,45 +3,45 @@
 - name: OTHERS
 
 
-- themes: Panorama y compartir
-  workshops: Habilidades, herramientas y estrategias
-  others: Desarrollar y compartir ideas utilizand
+- themes: <i class="far fa-calendar-check"></i> Panorama y compartir
+  workshops: <i class="fas fa-laptop-code"></i> Habilidades, herramientas y estrategias
+  others: <i class="fa fa-robot"></i> Desarrollar y compartir ideas utilizand
   
-- themes: Habilidades
-  workshops: hABILIDADES
-  others: Desarrollar y comparti
+- themes: <i class="far fa-calendar-check"></i> Habilidades
+  workshops: <i class="fas fa-laptop-code"></i>  hABILIDADES
+  others: <i class="fa fa-robot"></i> Desarrollar y comparti
 
-- themes: Panoramay compartir
-  workshops: herramientas y estrategias
-  others: Desarrollar y
+- themes: <i class="far fa-calendar-check"></i> Panoramay compartir
+  workshops: <i class="fas fa-laptop-code"></i> herramientas y estrategias
+  others: <i class="fa fa-robot"></i> Desarrollar y
 
-- themes: Panorama
-  workshops: Habilidades,as y estrategias
-  others: Desarrollar eas utilizand
+- themes: <i class="far fa-calendar-check"></i> Panorama
+  workshops: <i class="fas fa-laptop-code"></i> Habilidades,as y estrategias
+  others: <i class="fa fa-robot"></i> Desarrollar eas utilizand
 
-- themes: Pany compartir
-  workshops: Hatas y estrategias
-  others:  compartir ideas utilizand
+- themes: <i class="far fa-calendar-check"></i> Pany compartir
+  workshops: <i class="fas fa-laptop-code"></i> Hatas y estrategias
+  others: <i class="fa fa-robot"></i>  compartir ideas utilizand
 
-- themes: y compartir Panorama
-  workshops: rramientas y estrategias
-  others: Desarrollrtir ideas utilizand
+- themes: <i class="far fa-calendar-check"></i> y compartir Panorama
+  workshops: <i class="fas fa-laptop-code"></i> rramientas y estrategias
+  others: <i class="fa fa-robot"></i> Desarrollrtir ideas utilizand
 
-- themes: y compartirma
-  workshops: Habiamientas y estrategias
-  others: Dir ideas utilizand
+- themes: <i class="far fa-calendar-check"></i> y compartirma
+  workshops: <i class="fas fa-laptop-code"></i> Habiamientas y estrategias
+  others: <i class="fa fa-robot"></i> Dir ideas utilizand
 
-- themes: Panoray compartir
-  workshops: trategias
-  others: Desarrollar 
+- themes: <i class="far fa-calendar-check"></i> Panoray compartir
+  workshops: <i class="fas fa-laptop-code"></i> trategias
+  others: <i class="fa fa-robot"></i> Desarrollar 
 
-- themes: Panorama
-  workshops: Habilidades, estrategias
-  others: Desarrollutilizand
+- themes: <i class="far fa-calendar-check"></i> Panorama
+  workshops: <i class="fas fa-laptop-code"></i> Habilidades, estrategias
+  others: <i class="fa fa-robot"></i> Desarrollutilizand
 
-- themes: Panoramay compartir
-  workshops: Habrramientas y estrategias
-  others: Desarrollar y coideas utilizand
+- themes: <i class="far fa-calendar-check"></i> Panoramay compartir
+  workshops: <i class="fas fa-laptop-code"></i> Habrramientas y estrategias
+  others: <i class="fa fa-robot"></i> Desarrollar y coideas utilizand
 
 
 

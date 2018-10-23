@@ -20,14 +20,21 @@ AOS.init();
 
 //jquery validation
 
-    jQuery.validator.setDefaults({
-        debug: true,
-        success: "valid"
-      });
-      
+    
+
+//example
+  $(function() {
+    $.validator.setDefaults({
+      success: 'valid'
+    });
+
     $("#registration").validate({
         rules:{
-            name: "required",
+            name: {
+                required: true,
+                minlength: 3,
+                maxlength: 50
+            },
             email: {
                 required: true,
                 email: true
@@ -38,11 +45,20 @@ AOS.init();
             }
         },
         messages:{
-            name: "Por favor, ingrese su nombre",
-            email:"Por favor, ingrese un email valido",
-            field: "Por favor, ingrese su cv"
+            name: {
+                required: "Por favor, ingrese su nombre",
+                minlength: 'Por favor, ingrese mínimo 3 carácteres',
+                maxlength: 'Por favor, ingrese máximo 50 carácteres'
+            },
+            email: {
+                required: "Por favor, ingrese un email valido",
+                email: "Ingrese un email valido",
+            },
+            field:{
+                required: 'Por favor, ingrese su cv',
+                extension: 'Por favor, el archivo debe ser formato pdf'
+            }
         },
-        submitHandler: function(form) {
-            form.submit();
-        }
     });
+
+  });

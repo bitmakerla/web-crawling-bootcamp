@@ -180,6 +180,16 @@ ul{
     padding: 0.85rem;
     justify-content: center;
 }
+label.error{
+    font-family: anke;
+    color: #ff5733;
+    font-weight: 100;
+    font-size: 11px;
+    position: absolute;
+    background: none !important;
+    margin-left: -5px;
+    margin-top: -6px;
+}
 /*section---------------------------*/
 section{
     margin-bottom: 6rem;
@@ -285,6 +295,12 @@ button.btn.btn-lg.btn-light:hover{
 /*sistem*/
 section .sistem-bitm{
     margin-top: 57px;
+    
+}
+b.title{
+    font-size: 22px;
+    font-family: google;
+    letter-spacing: 2px;
 }
 /*section-goal-------------------------*/
 .section-goal{
@@ -306,7 +322,16 @@ section.tolearn{
     background-position:center center;
     margin-bottom: 0;
     background-attachment: fixed;
+    p.title-tolearn{
+        font-size: 25px;
+        font-family: google;
+        letter-spacing: 3px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
 }
+
 .section-grp{
     background: #6f6f77;
 }
@@ -317,10 +342,92 @@ section.tolearn{
     width: 25rem;
     display: block;
     margin: auto;
-    border: 8px solid #fdfbfb;
     background: #fff;
     margin-bottom: 50px;
+    padding: 18px 18px;
+
+    p{
+        margin: 7px;
+    }
+    p.title{
+        font-size: 29px;
+        margin-bottom: 15px;
+        font-family: google;
+        letter-spacing: 3px;
+    }
 }
+
+i.far.fa-calendar-check{
+    font-size: 16px;
+    margin-right: 5px;
+}
+i.fas.fa-laptop-code{
+    font-size: 16px;
+    margin-right: 5px;
+}
+i.fa.fa-robot{
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+
+
+/* VARIABLES */
+
+$progress-width: 100%;
+$progress-height: .28em;
+$font-size: 1em;
+$line-height: 1.5em;
+$font-weight-headings: 100;
+$h1-font-size: 2.25em;
+
+/* COLORS */
+
+$color: #6c6c6c;
+$color-bg: #f5f7f9;
+$color-progress-bg: #e5e9eb;
+$color-green: #4cd964;
+$color-turquoise: #5ac8fa;
+$color-blue: #007aff;
+$color-light-blue: #34aadc;
+$color-purple: #5856d6;
+$color-red: #ff2d55;
+
+.progress {
+  background-color: $color-progress-bg;
+  height: $progress-height;
+  position: relative;
+  width: $progress-width;
+
+  &-bar {
+    animation-duration: 5s;
+    animation-name: width;
+    background-image: linear-gradient(to right, $color-green, $color-turquoise, $color-blue, $color-light-blue, $color-purple, $color-red);
+    background-size: $progress-width $progress-height;
+    height: 100%;
+    position: relative;
+  }
+}
+
+/* ANIMATIONS */
+
+@keyframes width {
+
+  0%, 100% {
+    transition-timing-function: cubic-bezier(1, 0, .65, .85);
+  }
+
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+    animation-duration: 80s;
+  }
+
+}
+
 /*teacher section-------------------*/
 
 
