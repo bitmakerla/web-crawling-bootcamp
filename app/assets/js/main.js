@@ -73,15 +73,15 @@ AOS.init();
     canvas.height = window.innerHeight;
     var ctx = canvas.getContext("2d");
 
-var TAU = 2 * Math.PI;
+  var TAU = 2 * Math.PI;
 
-times = [];
-function loop() {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  update();
-  draw();
-  requestAnimationFrame(loop);
-}
+  times = [];
+  function loop() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    update();
+    draw();
+    requestAnimationFrame(loop);
+  }
 
 function Ball (startX, startY, startVelX, startVelY) {
   this.x = startX || Math.random() * canvas.width;
@@ -102,8 +102,8 @@ function Ball (startX, startY, startVelX, startVelY) {
   };
   this.draw = function(ctx, can) {
     ctx.beginPath();
-    ctx.globalAlpha = .4;
-    ctx.fillStyle = '#ff5733';
+    ctx.globalAlpha = .2;
+    ctx.fillStyle = '#87878879';
     ctx.arc((0.5 + this.x) | 0, (0.5 + this.y) | 0, 3, 0, TAU, false);
     ctx.fill();
   }
@@ -146,16 +146,15 @@ function draw() {
       var ball2 = balls[index2];
       var dist = Math.hypot(ball.x - ball2.x, ball.y - ball2.y);
         if (dist < 100) {
-          ctx.strokeStyle = "#f1f1f1";
-          ctx.globalAlpha = 1 - (dist > 100 ? .8 : dist / 150);
-          ctx.lineWidth = "1px";
-          ctx.moveTo((0.5 + ball.x) | 0, (0.5 + ball.y) | 0);
-          ctx.lineTo((0.5 + ball2.x) | 0, (0.5 + ball2.y) | 0);
+          ctx.strokeStyle = "#87878884";
+          ctx.globalAlpha = 1 - (dist > 100 ? .1 : dist / 150);
+          ctx.lineWidth = "0.5px";
+          ctx.moveTo((0.8 + ball.x) | 0, (0.8 + ball.y) | 0);
+          ctx.lineTo((0.8 + ball2.x) | 0, (0.8 + ball2.y) | 0);
         }
     }
     ctx.stroke();
   }
 }
 
-// Start
 loop();
