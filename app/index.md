@@ -21,12 +21,6 @@ description: We have employment insertion to students or graduates, from the com
 
 section2title: OUR
 section2tl: SOLUTIONS
-first: Outlook 
-textfirst: Get them to confidently defend critical decisions, using the results of their data analysis.
-second: Skills, tools and strategies
-textsecond: Using Excel, SQL and Tableau to detect trends and boost business decisions with real-world data.
-Third: Analytics
-textThird: Develop and share ideas using data visualizations and scorecards.
 
 data: Data Sciencie
 aplysection: Leading the way to change the way people and companies make decisions. It creates an environment that cultivates the curiosity that data narrators share.

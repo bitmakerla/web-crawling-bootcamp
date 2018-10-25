@@ -6,58 +6,18 @@
                     <span class="letters-gray">{{ page.section2title }}</span><span class="letters-green"> {{ page.section2tl}}</span>
                 </div>
             </div>
-        </div>
+    </div>
     <div class="container">
         <div class="row text-center">
-            <div class="col-sm">
-                <div data-aos="fade-up-right"
-                     data-aos-duration="2000">
-                     {% asset data-st width='100%' height=0150 %}
-                    <p><b>{{ page.first }}</b></p>
-                    <p class="our-goal"><small>{{ page.textfirst }}</small></p>
+            {% for item in site.data.vision %}
+                <div class="col-4 col-md-4 col-sm col-xs-12">
+                    <div>
+                        {{ item.image }}
+                        <p><b>{{ item.title }}</b></p>
+                        <p class="our-goal"><small>{{ item.description }}</small></p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm">
-                <div data-aos="zoom-in-up"
-                     data-aos-duration="2000">
-                     {% asset tableau width='100%' height=0150 %}
-                    <p><b>{{ page.second }}</b></p>
-                    <p class="our-goal"><small>{{ page.textsecond }}</small></p>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div data-aos="fade-up-left"
-                     data-aos-duration="2000" >
-                     {% asset work width='100%' height=0150 %}
-                    <p><b>{{ page.Third }}</b></p>
-                    <p class="our-goal"><small>{{ page.textThird }}</small></p>
-                </div>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section> 
-
-<!--{% for item in site.data.solution %}
-<section class="container-fluid section-goal" id="soluciones">
-    <div class="row">
-        <div class="col-sm-5 "></div>
-        <div class="col-sm-7 item-title-section">
-            <div class="pull-left">
-                <span class="letters-gray">{{ page.section2title }}</span><span class="letters-green"> {{ page.section2tl}}</span>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-sm">
-                <div data-aos="fade-up-right"
-                     data-aos-duration="2000">
-                        <p><b>{{ item.name }}</b></p>
-                        <p class="our-goal"><small>{{ item.texto }}</small></p>
-                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-{% endfor %}-->
-
