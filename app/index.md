@@ -4,63 +4,58 @@ title: Bitmaker
 titleHeader: Bootcamp
 headerText: Explore. Move. Connect.
 text: Hire the right developers, no matter the place latin american talent for the world.
-bttnh1: Explora nuestro programa
-
-apply: Empezar ahora
+bttnh1: EXPLORE OUR PROGRAM
+apply: START NOW
 
 navhome: Home
-firstmenu: Soluciones
+firstmenu: Solutions
 secondmenu: Bootcamp
-thirdmenu: Tema y Talleres
-sub-nav: Temas
-sub-nav1: Talleres
-empezar: Empezar
+thirdmenu: Themes and Workshops
+sub-nav: Themes
+sub-nav1: Workshops
+empezar: To Start
 
-hometitle: QUIENES
-hometl: SOMOS
-description: Contamos con inserción laboral a alumnos o egresados, de la carrera de Ciencias de la Computación, y continuar sus estudios con nosotros; colocándolos en nuestra red laboral. <b>Permitiendo triplicar sus ingresos</b>, transformar sus vidas y desarrollarse en Data Sciencie con un aprendizaje de 3 meses intensivos.
+hometitle: WHO 
+hometl: WE ARE
+description: We have employment insertion to students or graduates, from the computer science career, and continue their studies with us; them by putting in our work network. <b>Allowing triple your income</b>, transform their lives and develop in Data science with a 3-month intensive learning.
 
-
-section2title: NUESTRAS
-section2tl: SOLUCIONES
-first: Panorama
-textfirst: Lograr que con confianza defiendan las decisiones críticas, utilizando los resultados de sus análisis de datos.
-second: Habilidades, herramientas y estrategias
-textsecond: Uso de Excel, SQL Y Tableau para detectar tendencias e impulsar decisiones de negocios con datos del mundo real.
+section2title: OUR
+section2tl: SOLUTIONS
+first: Outlook 
+textfirst: Get them to confidently defend critical decisions, using the results of their data analysis.
+second: Skills, tools and strategies
+textsecond: Using Excel, SQL and Tableau to detect trends and boost business decisions with real-world data.
 Third: Analytics
-textThird: Desarrollar y compartir ideas utilizando visualizacones de datos y cuadros de mando.
+textThird: Develop and share ideas using data visualizations and scorecards.
 
 data: Data Sciencie
-aplysection: Liderando el camino para cambiar la forma en que las personas y las empresas toman decisiones. Crea un entorno que cultiva la curiosisdad que comparten los narradores de datos. 
+aplysection: Leading the way to change the way people and companies make decisions. It creates an environment that cultivates the curiosity that data narrators share.
 
-sistematitle: ¿CÓMO 
-sistematl: FUNCIONA?
-bootcamp: Aprendizaje de 3 meses intensivos (de lunes a viernes, 8hs presenciales).
-bootsmall: Al culminar tus estudios con nosotros te conseguiremos trabajo en la industria tech.
-red: Red de egresados
-redbootcamp: Al ser parte de la Red de Egresados del Bootcamp Bitmaker podrás acceder a beneficios, talleres, capacitaciones, eventos, proyectos, pertenecer a la red laboral de Bitmaker.
-redsmall: Egresado, mantente en contacto con nosotros para poder acceder a beneficios que tenemos para ti 
+sistematitle: HOW
+sistematl: IT WORKS?
+bootcamp: 3 month intensive learning (Monday to Friday, 8 hours onsite).
+bootsmall: When you finish your studies with us we will get you work in the TEC industry.
+red: Network to graduated
+redbootcamp: Being part of the network of graduates of the Bootcamp Bitmaker you will be able to obtain the benefits, workshops, trainings, events, projects, belonging to the work network of Bitmaker.
+redsmall: Keep in touch with us to access benefits we have for you.
 
-tolearntitle: LO QUE
-tolearntl: APRENDERÁS
-titleLearn: TEMAS Y TALLERES
+tolearntitle: WHAT YOU
+tolearntl: WILL LEARN
+titleLearn: THEMES AND WORKSHOPS
 themes: Themes
 workshops: Workshops
 others: Others
 
-squadtitle: NUESTRO
-squadtl: EQUIPO
-nameInstructor: RAUL LALALA
-theme: Instructor Principal
-nameDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum esse aliquid vitae quae sed modi animi, saepe error repellat dolor obcaecati, perspiciatis aspernatur deleniti et ipsam natus sunt recusandae!"
+squadtitle: OUR 
+squadtl: TEAM
 
-contact: APLICA AHORA
-contacto: BIENVENIDO AL PORTAL DE ADMISIONES DE NUESTRO BOOTCAMP
-user: NOMBRE *
+contact: APPLY NOW
+contacto: WELCOME TO THE ADMISSIONS PORTAL OF OUR BOOTCAMP
+user: NAME *
 email: EMAIL *
-file: Subir cv *
-adjunt: Subir formato PDF
-message: MENSAJE
-register: Regístrate
+file: Upload CV *
+adjunt: File upload PDF format
+message: MESSAGE
+register: Register
 ---
 <h1>{{ "Hello" | downcase }}</h1>
