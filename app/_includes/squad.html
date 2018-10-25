@@ -10,9 +10,6 @@
     <div class="container">
         <div class="row justify-content-center">
             {% for item in site.data.squad %}
-
-                <!-- assign =====> {% if mod == 0 %} imprime pares de lo contrario imprime los siguientes-->
-
                 {% assign mod = forloop.index | modulo: 2 %}
                 {% if mod == 0 %}
                     <div class="row justify-content-center">
@@ -49,10 +46,14 @@
                     </div>
                     <br><br>
                 {% endif %}
+                
             {% endfor %}
         </div>
     </div>
 </section>
 <!--data-aos="zoom-in-up"
                         data-aos-duration="2000"-->
+<!--  if mod == 0  imprime pares de lo contrario imprime los siguientes-->
+
+                
                         
