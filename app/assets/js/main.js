@@ -1,22 +1,5 @@
 AOS.init();
-
-    $("#filebutton").click(function() {
-        $("#test").click();
-    })
-
-    $('#test').change(function() {
-        $('#test_form').submit();
-    });
-
-
-    function show() {
-        document.getElementById("myDiv").style.display="inline";
-        setTimeout("hide()", 10000);
-    }
-
-    function hide() {
-        document.getElementById("myDiv").style.display="none";
-    }
+  
 
 //jquery validation
 
@@ -24,6 +7,28 @@ AOS.init();
 
 //example
   $(function() {
+    $("#filebutton").click(function() {
+      $("#test").click();
+  })
+
+  $('#test').change(function() {
+      $('#test_form').submit();
+  });
+
+
+  function show() {
+      document.getElementById("myDiv").style.display="inline";
+      setTimeout("hide()", 10000);
+  }
+
+  function hide() {
+      document.getElementById("myDiv").style.display="none";
+  }
+
+
+
+
+
     $.validator.setDefaults({
       success: 'valid'
     });
@@ -62,12 +67,8 @@ AOS.init();
     });
 
   });
-
-
-
-
-
-  /*canvas*/
+  
+/*canvas*/
   var canvas = document.querySelector("canvas");
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;

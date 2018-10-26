@@ -1,0 +1,11 @@
+- image: <img src="../assets/images/data-st.jpg" width="100%" height="150" alt="" data-aos="fade-up-right" data-aos-duration="2000">
+  title: Outlook 
+  description: Get them to confidently defend critical decisions, using the results of their data analysis.
+
+- image: <img src="../assets/images/tableau.jpg" width="100%" height="150" alt="" data-aos="fade-up" data-aos-duration="2000">
+  title: Skills, tools and strategies
+  description: Using Excel, SQL and Tableau to detect trends and boost business decisions with real-world data.
+
+- image: <img src="../assets/images/work.jpg" width="100%" height="150" alt="" data-aos="fade-up-left" data-aos-duration="2000">
+  title: Analytics
+  description: Develop and share ideas using data visualizations and scorecards.

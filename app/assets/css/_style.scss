@@ -7,14 +7,7 @@
     font-family:'google';
     src:asset_url("google.ttf");
 }
-@font-face{
-    font-family:'helvReg';
-    src:asset_url("HELR45W.ttf");
-}
-@font-face{
-    font-family:'helvetica';
-    src:asset_url("helvmn.ttf");
-}
+
 @font-face{
     font-family:'lemon';
     src:asset_url("lemon.ttf");
@@ -27,9 +20,7 @@
 }
 
 /* variables */
-$font-anke: Anke;
-$font-google: google;
-$font-lemon: lemon;
+
 $progress-width: 100%;
 $progress-height: .28em;
 $font-size: 18px;
@@ -68,7 +59,7 @@ section{
 }
 .item-title-section{
     background: rgb(223, 221, 221);
-    font-family: $font-anke;
+    font-family: 'Anke';
     font-size: 1.5rem;
     letter-spacing: 5px;
     padding: 8px 20px;
@@ -99,7 +90,7 @@ button.btn.btn-lg.btn-light.home-register a{
 }
 a.nav-link, a.nav-item{
     color: $color;
-    font-family: $font-lemon;
+    font-family: 'lemon';
     font-size: 12px;
 }
 a.apply-btcm:active{
@@ -129,7 +120,7 @@ section.home-black {
     width: $progress-width;
     margin-bottom: 2rem;
     color: #fff;
-    font-family: $font-lemon;
+    font-family: 'lemon';
     display: flex;
     justify-content: $center;
     align-items: $center;
@@ -188,9 +179,9 @@ section.home-black{
     }
 }------------*/
 /*section-home-------------*/
-#home div div div div p.title{
+p.title{
     font-size: 29px;
-    font-family: $font-google;
+    font-family: 'google';
     letter-spacing: 2px;
     font-weight: bold;
 }
@@ -209,7 +200,7 @@ section.home-black{
 }
 .section-inf p.theme{
     font-size: 29px;
-    font-family: $font-google;
+    font-family: 'google';
     letter-spacing: 2px;
 }
 .bots{
@@ -221,7 +212,7 @@ section div.sistem-bitm{
 }
 b.title{
     font-size: 23px;
-    font-family: $font-google;
+    font-family: 'google';
     letter-spacing: 2px;
 }
 .th{
@@ -241,7 +232,7 @@ section.tolearn{
     background-attachment: fixed;
     p.title-tolearn{
         font-size: 25px;
-        font-family: $font-google;
+        font-family: 'google';
         letter-spacing: 3px;
         font-weight: bold;
         text-transform: capitalize;
@@ -260,7 +251,7 @@ section.tolearn{
         p.title{
             font-size: 25px;
             margin-bottom: 15px;
-            font-family: $font-google;
+            font-family: 'google';
             letter-spacing: 3px;
         }
     }
@@ -316,7 +307,7 @@ i.fa.fa-robot{
     margin-bottom: -6px;
     color: #000;
     font-weight: bold;
-    font-family: $font-lemon;
+    font-family: 'lemon';
 }
 small{
     color: #6f6f77;
@@ -368,7 +359,7 @@ section.contact, section.map{
     background: #31333e;
     padding: 80px;
     color: $color-light;
-    font-family: $font-anke;
+    font-family: 'Anke';
     font-weight: normal;
 }
 label{
@@ -401,6 +392,15 @@ input.form-control, textarea.form-control{
 .button-send:hover{
     color: $color;
 }
+i.fab.fa-linkedin-in{
+    position: absolute;
+    top: 0;
+    margin: 10px;
+    color: #fff;
+    background: #0077b5;
+    padding: 5px;
+    border-radius: 100px;
+}
 /*map--------------*/
 /*footer------------------------------*/
 footer{
@@ -414,7 +414,7 @@ footer{
    margin-top: 50px;
 }
 label.error{
-    font-family: $font-anke;
+    font-family: 'Anke';
     color: $color-brand;
     font-weight: 100;
     font-size: 11px;
