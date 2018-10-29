@@ -45,6 +45,15 @@ squadtl: TEAM
 
 to: FREQUENTLY 
 toask: ASKED QUESTIONS
+headingOne: What is the Bootcamp?
+headingTwo: Why Choose Bitmaker's Bootcamp?
+firstWhy: Because in our program you will receive classes of expert professors, benefits of graduates and support of instructors during the process.
+secondWhy: Because we will connect and position you with the best employers.
+headingThree: Where are the classes?
+headingFour: Can I study online?
+presencial: The Bootcamp is presencial. You will have classes from Monday to Friday, for 8 hours a day for 3 months, with obligatory assistance.
+headingFive: What kind of companies will your graduates work in?
+work-graduates: lalala
 
 contact: APPLY NOW
 contacto: WELCOME TO THE ADMISSIONS PORTAL OF OUR BOOTCAMP

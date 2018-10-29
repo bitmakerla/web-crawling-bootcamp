@@ -13,7 +13,7 @@
                 <div class="card-header" id="headingOne">
                 <h5 class="mb-0">
                     <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        What is the Bootcamp? <i class="fas fa-angle-down"></i>
+                        {{ page.headingOne }} <i class="fas fa-angle-down"></i>
                     </button>
                 </h5>
                 </div>
@@ -28,15 +28,15 @@
                 <div class="card-header" id="headingTwo">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Why Choose Bitmaker's Bootcamp? <i class="fas fa-angle-down"></i>
+                        {{ page.headingTwo }} <i class="fas fa-angle-down"></i>
                     </button>
                 </h5>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                 <div class="card-body text-left">
                    <ul>
-                       <li><i class="fas fa-check"></i> Because in our program you will receive classes of expert professors, benefits of graduates and support of instructors during the process.</li>
-                       <li><i class="fas fa-check"></i> Because we will connect and position you with the best employers.</li>
+                       <li><i class="fas fa-check"></i> {{ page.firstWhy }} </li>
+                       <li><i class="fas fa-check"></i> {{ page.secondWhy }} </li>
                    </ul>
                 </div>
                 </div>
@@ -45,7 +45,7 @@
                 <div class="card-header" id="headingThree">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Where are the classes? <i class="fas fa-angle-down"></i>
+                        {{ page.headingThree }} <i class="fas fa-angle-down"></i>
                     </button>
                 </h5>
                 </div>
@@ -60,13 +60,13 @@
                 <div class="card-header" id="headingFour">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        Can I study online? <i class="fas fa-angle-down"></i>
+                        {{ page.headingFour }} <i class="fas fa-angle-down"></i>
                     </button>
                 </h5>
                 </div>
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                 <div class="card-body">
-                        The Bootcamp is presencial. You will have classes from Monday to Friday, for 8 hours a day for 3 months, with obligatory assistance.
+                        {{ page.presencial }}
                 </div>
                 </div>
             </div>
@@ -74,13 +74,13 @@
                 <div class="card-header" id="headingFive">
                 <h5 class="mb-0">
                     <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        What kind of companies will your graduates work in? <i class="fas fa-angle-down"></i>
+                        {{ page.headingFive }} <i class="fas fa-angle-down"></i>
                     </button>
                 </h5>
                 </div>
                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                 <div class="card-body">
-                    lalala
+                        {{ page.work-graduates }}
                 </div>
                 </div>
             </div>

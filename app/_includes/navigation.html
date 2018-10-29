@@ -1,5 +1,5 @@
-<div class="container " id="all-navbar">
-    <nav class="navbar navbar-expand-lg navbar-light container ">
+<section class="container navigation">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a href="" class="bit navbar-brand" href="">
             {% asset logo-white  width=150 alt='Bilmaker-logo' %}
         </a>
@@ -7,9 +7,9 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <div class="navbar-nav mr-auto"></div>
-            <form action="" class="form-inline " >
-                <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav mr-auto"><li></li></ul>
+            <form action="" class="form-inline my-2 my-lg-0">
+                <ul class="navbar-nav ">
                     <li class="nav-item">
                         <a class="nav-link" href="#homewho">{{ page.navhome }}<span class="sr-only">(current)</span></a>
                     </li>
@@ -31,8 +31,10 @@
                         <a class="nav-link btn-apply" href="#contact">{{ page.contact }}</a>
                     </li>
                 </ul>
-                <!--<button class="btn btn-light applynow"><a href="#apply" class="dropdown-item apply-btcm">{{ page.apply }}</a></button>-->
             </form>
-
+        </div>
     </nav>
-</div>
+</section>
+
+
+
