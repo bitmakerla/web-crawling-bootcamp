@@ -2,7 +2,7 @@
 layout: default
 title: Bitmaker
 titleHeader: Bootcamp
-headerText: Explore. Move. Connect.
+headerText: Explore. Creates. Connect.
 text: Hire the right developers, no matter the place latin american talent for the world.
 bttnh1: EXPLORE OUR PROGRAM
 apply: START NOW
@@ -42,6 +42,9 @@ others: Others
 
 squadtitle: OUR 
 squadtl: TEAM
+
+to: FREQUENTLY 
+toask: ASKED QUESTIONS
 
 contact: APPLY NOW
 contacto: WELCOME TO THE ADMISSIONS PORTAL OF OUR BOOTCAMP
