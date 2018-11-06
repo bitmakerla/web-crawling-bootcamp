@@ -14,6 +14,7 @@ thirdmenu: Themes and Workshops
 sub-nav: Themes
 sub-nav1: Workshops
 empezar: To Start
+sponsor: SPONSORS
 
 hometitle: WHO 
 hometl: WE ARE
@@ -63,5 +64,7 @@ file: Upload CV *
 adjunt: File upload PDF format
 message: MESSAGE
 register: Register
+
+footer: ©Copyright 2018 Bitmaker all rights reserved
 ---
 <h1>{{ "Hello" | downcase }}</h1>

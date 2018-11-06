@@ -1,15 +1,12 @@
-<section class="container navigation">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a href="" class="bit navbar-brand" href="">
-            {% asset logo-white  width=120 alt='Bilmaker-logo' %}
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto"><li></li></ul>
-            <form action="" class="form-inline my-2 my-lg-0">
-                <ul class="navbar-nav ">
+<section class="container-fluid nav-item">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">{% asset logo-white  width=120 alt='Bilmaker-logo' class='bitmaker-logo' %}</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#homewho">{{ page.navhome }}<span class="sr-only">(current)</span></a>
                     </li>
@@ -27,14 +24,15 @@
                             <a class="dropdown-item" href="#tyt">{{ page.sub-nav }}</a>
                             <a class="dropdown-item" href="#tyt">{{ page.sub-nav1 }}</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn-apply" href="#contact">{{ page.contact }}</a>
-                    </li>
                 </ul>
-            </form>
-        </div>
-    </nav>
-</section>
+                <form class="form-inline my-2 my-lg-0">
+                </form>
+                <a href="http://bitmaker.bootcamp.la/" >
+                    <button class="btn btn-lg btn-bootcamp space">{{ page.sponsor}} </button>
+                </a>
+            </div>
+        </nav>
+    </section>
 
 
 

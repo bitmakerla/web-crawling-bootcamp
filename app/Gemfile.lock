@@ -9,7 +9,7 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
-    concurrent-ruby (1.0.5)
+    concurrent-ruby (1.1.2)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -23,7 +23,7 @@ GEM
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    jekyll (3.8.4)
+    jekyll (3.8.5)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -55,7 +55,7 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.5.0)
       jekyll (~> 3.3)
-    jekyll-watch (2.1.1)
+    jekyll-watch (2.1.2)
       listen (~> 3.0)
     kramdown (1.17.0)
     liquid (4.0.1)
@@ -75,10 +75,10 @@ GEM
     minitest (5.11.3)
     nokogiri (1.8.5-x64-mingw32)
       mini_portile2 (~> 2.3.0)
-    pathutil (0.16.1)
+    pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
-    rack (2.0.5)
+    rack (2.0.6)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -96,7 +96,7 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    tzinfo-data (1.2018.5)
+    tzinfo-data (1.2018.7)
       tzinfo (>= 1.0.0)
     wdm (0.1.1)
 
@@ -112,4 +112,4 @@ DEPENDENCIES
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   1.16.6
+   1.17.1

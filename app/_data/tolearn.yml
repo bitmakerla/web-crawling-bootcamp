@@ -1,7 +1,3 @@
-- name: THEMES
-- name: WORKSHOPS
-- name: OTHERS
-
 
 - themes: <i class="far fa-calendar-check"></i> Panorama y compartir
   workshops: <i class="fas fa-laptop-code"></i> Habilidades, herramientas y estrategias
@@ -43,6 +39,9 @@
   workshops: <i class="fas fa-laptop-code"></i> Habrramientas y estrategias
   others: <i class="fa fa-robot"></i> Desarrollar y coideas utilizand
 
+- name: THEMES
+- name: WORKSHOPS
+- name: OTHERS
 
 
 
