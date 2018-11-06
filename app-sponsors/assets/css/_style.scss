@@ -1,0 +1,182 @@
+@charset "UTF-8";
+@font-face{
+    font-family:'Anke';
+    src:asset_url("Anke.otf");
+}
+@font-face{
+    font-family:'google';
+    src:asset_url("google.ttf");
+}
+
+@font-face{
+    font-family:'lemon';
+    src:asset_url("lemon.ttf");
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/*variables*/
+$progress-width: 100%;
+$font-size: 18px;
+$center: center;
+$transparent: transparent;
+$uppercase: uppercase;
+
+/*colors*/
+$color-brand: #ff5733;
+$color:  #a3a3a3;
+$color-fnd: #dfdddd;
+$color-black: #000;
+$color-btn:  #bebebe;
+$color-hover-btn: #1ed760;
+$color-white: #fff;
+$color-send:#dfdddd;
+
+
+/*common*/
+section{
+    margin-bottom: 6rem;
+}
+p{
+    font-size: $font-size;
+    margin: 24px 0;
+}
+a{
+    color: $color-brand;
+}
+a:hover{
+    color: $color-brand;
+}
+.item-title-section{
+    background: $color-fnd;
+    font-family: 'Anke';
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    padding: 8px 20px;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    box-shadow: 0 4px 20px -2px $color;
+}
+.letters-gray{
+    color: $color-black;
+}
+.letters-green{
+    color: $color-white;
+}
+div.pull-right{
+    float: right;
+}
+/*nav -------------------*/
+.btn-bootcamp{
+    padding: .5rem 3rem !important;
+    font-size: 1rem !important;
+    background: $transparent;
+    color: $color-btn;
+    text-transform: $uppercase;
+    font-weight: normal;
+    border: 1px solid $color-btn;
+}
+.btn-bootcamp:hover{
+    background: $color-hover-btn;
+    color: $color-white;
+}
+.space{
+    margin-left: 1rem;
+}
+/*Header---------------------------------------------*/
+
+section.home-black {
+background-image: asset_url("home-sponsor.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: $center;
+background-attachment: fixed;
+position: relative;
+height: 830px;
+width: $progress-width;
+margin-bottom: 2rem;
+color: $color-white;
+display: flex;
+justify-content: $center;
+align-items: $center;
+font-family: lemon;
+margin-bottom: 6rem;
+    
+    .home{
+        position: absolute;
+        h1{
+            font-size: 4rem;
+            text-transform: $uppercase;
+            padding: 0 10rem;
+            }
+    }
+}
+
+
+/*home--------------*/
+h2{
+    font-size: 29px;
+    font-family: 'google';
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+/*benefits*/
+div.row.justify-content-center.benefits-content{
+    margin-bottom: -48px;
+}
+p.title-benefits{
+    font-weight: 600;
+    font-family: lemon;
+    margin-bottom: -22px;
+}
+.benefits-sponsor{
+    display: flex;
+  align-items: $center;
+  justify-content: $center;
+  text-align: $center;
+}
+/*SEND---------*/
+#sponsor-send{
+    display: none;
+}
+.send{
+    background: $color-fnd;
+    padding: 2rem;
+}
+.btn-send{
+    color: $color-hover-btn;
+}
+p.sponsor-send{
+    font-size: 2rem;
+    font-family: Anke;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.fas.fa-play{
+    margin-right: 3rem;
+    color: $color-brand;
+}
+.register{
+    padding: 0 6.3rem;
+    margin-top: 2.5rem;
+    font-family: Anke;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+footer{
+    background: $color-black;
+    color: $color-white;
+    padding: 2.5rem 0;
+    h6{
+        margin-bottom: 0;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    section.home-black{
+        height: 580px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+}
