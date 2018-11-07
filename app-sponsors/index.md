@@ -1,5 +1,6 @@
 ---
 layout: default
+title-sponsors: Web Sponsors
 
 bootcamp: Bootcamp
 blog: Porqué Arequipa?

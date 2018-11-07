@@ -1,10 +1,12 @@
 ---
 layout: default
+title-blog: Por qué Arequipa
 
 sponsor: sponsors
 bootcamp: bootcamp
 
-header: why Arequipa?
+header: Why Arequipa?
+header-home: ¿Porqué Arequipa?
 
 title:  Las cosas que debes saber sobre Arequipa
 title-sc: y su surgimiento en el ecosistema de computación

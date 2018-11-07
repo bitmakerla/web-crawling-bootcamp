@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bitmaker
+title: Web Crawling Bootcamp
 titleHeader: Bootcamp
 headerText: Explore. Creates. Connect.
 text: Hire the right developers, no matter the place latin american talent for the world.
