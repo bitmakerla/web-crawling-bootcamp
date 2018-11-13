@@ -2,7 +2,11 @@ AOS.init();
   
 
 //jquery validation
-
+$(document).ready(function(){
+  $("#send").on( "click", function() {
+      $('#sponsor-send').show(3000); 
+  });
+});
     
 
 //example

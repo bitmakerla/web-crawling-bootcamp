@@ -4,8 +4,6 @@
   description:
     Founder and Director of [Bitmaker](https://bitmaker.la), started this bootcamp because of several companies needing
     specialized professionals on the field of web crawling.
-
-
     Raul has been working on this field for more than 5 years and learning all the steps that it involves in one of the
     most important companies in the area ([Scrapinghub](https://scrapinghub.com)). He is also one of the main contributors
     of web-crawling related subjects in [StackOverflow](https://stackoverflow.com/users/858913/elrull) and [Github](https://github.com/elrull).
@@ -14,17 +12,17 @@
 - image: alex.jpg
   name: ALEXANDER AFANASYEV
   title: Instructor
-  description: This is a description
+  description: Description Alexander Afanasyev 
   linkedin: https://www.linkedin.com/in/alexanderafanasiev/
 
 - image: edgar.jpg
   name: EDGAR MARCA
   title: Instructor 
-  description: Edgar description
+  description: Description Edgar Marca 
   linkedin: https://www.linkedin.com/in/edgar-marca-1ba08621/
 
 - image: wilfredo.jpg
   name: WILFREDO BARDALES
   title: Instructor 
-  description: Wilfredo description
+  description: Wilfredo Bardales 
   linkedin: https://www.linkedin.com/in/wilfredo-bardales-roncalla/

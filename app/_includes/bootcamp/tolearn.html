@@ -1,0 +1,64 @@
+<section class="container-fluid tolearn ">
+        <div class="row">
+            <div class="col-sm-5 "></div>
+            <div class="col-sm-7 item-title-section">
+                <div class="pull-left">
+                    <span class="letters-gray">{{ page.tolearntitle }}</span><span class="letters-green"> {{ page.tolearntl }}</span>
+                </div>
+            </div>
+        </div>
+        <div class="process" id="apply-update">
+            <div class="container-fluid">
+                <div class="row tolearn-row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="twothers">
+                            <p class="title"><b>{{ page.themes }}</b></p>
+                            <div data-aos="zoom-in-up"
+                                data-aos-duration="2000">
+                                    {% for item in site.data.tolearn %}
+                                     <p>{{ item.themes }}</p>
+                                    {% endfor %}
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                    <div class="progress-shadow"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="twothers">
+                            <p class="title"><b>{{ page.workshops }}</b></p>
+                            <div data-aos="zoom-in-up"
+                                data-aos-duration="2000">
+                                    {% for item in site.data.tolearn %}
+                                        <p> {{ item.workshops }}</p>
+                                    {% endfor %}
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width:88%">
+                                    <div class="progress-shadow"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="twothers">
+                            <p class="title"><b>{{ page.others }}</b></p>
+                            <div data-aos="zoom-in-up"
+                                data-aos-duration="2000">
+                                    {% for item in site.data.tolearn %}
+                                        <p> {{ item.others }}</p>
+                                    {% endfor %}
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                    <div class="progress-shadow"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

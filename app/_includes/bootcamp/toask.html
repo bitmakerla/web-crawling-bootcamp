@@ -1,0 +1,90 @@
+<section class="container-fluid tolearn toask">
+    <div class="row">
+        <div class="col-sm-5 "></div>
+        <div class="col-sm-7 item-title-section">
+            <div class="pull-left">
+                <span class="letters-gray">{{ page.to }}</span><span class="letters-green"> {{ page.toask }}</span>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        {{ page.headingOne }} <i class="fas fa-angle-down"></i>
+                    </button>
+                </h5>
+                </div>
+            
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                    {{ page.description }}
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        {{ page.headingTwo }} <i class="fas fa-angle-down"></i>
+                    </button>
+                </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body text-left">
+                   <ul>
+                       <li><i class="fas fa-check"></i> {{ page.firstWhy }} </li>
+                       <li><i class="fas fa-check"></i> {{ page.secondWhy }} </li>
+                   </ul>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        {{ page.headingThree }} <i class="fas fa-angle-down"></i>
+                    </button>
+                </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                        <i class="fas fa-map-marker-alt"></i> Amatistas 402 Urb. San Jerónimo - Arequipa, Perú
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2706.2223262692933!2d-71.53986467266154!3d-16.415869360715686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424aefdfc26a1f%3A0x564874acb4a2f126!2sAmatistas+402%2C+Arequipa!5e0!3m2!1ses!2spe!4v1539633569379" width="100%" height="100" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        {{ page.headingFour }} <i class="fas fa-angle-down"></i>
+                    </button>
+                </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                <div class="card-body">
+                        {{ page.presencial }}
+                </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        {{ page.headingFive }} <i class="fas fa-angle-down"></i>
+                    </button>
+                </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                <div class="card-body">
+                        {{ page.work-graduates }}
+                </div>
+                </div>
+            </div>
+        </div>
+            <br><br>
+    </div>
+</section>

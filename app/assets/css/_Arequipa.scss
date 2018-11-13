@@ -1,0 +1,106 @@
+div.container-fluid.arequipa{
+    position: absolute;
+    z-index: 1;
+}
+
+section.home-black-blog {
+    background-image: asset_url("arequipa-bitmaker.png");
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    width: $progress-width;
+    margin-bottom: 2rem;
+    color: $color-white;
+    display: flex;
+    justify-content: $center;
+    align-items: $center;
+    font-family: google;
+    margin-bottom: 1.5rem;
+    h1{
+        font-size: 3rem;
+        text-transform: $uppercase;
+        padding: 0 13rem;
+        }
+}
+.image-inf-aqp{
+    background-image: asset_url("informatica.png");
+    background-size: cover;
+    height: 24rem;
+    width: $progress-width;
+    background-repeat: no-repeat;
+}
+div.container-img{
+    border: 1px solid $color-send;
+    padding: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+.Arequipa p{
+    font-size: $font-size;
+    text-align: justify;
+}
+.arequipa{
+    float: left;
+    margin-right: 2rem;
+}
+.items li{
+    margin-top: 5rem;
+}
+.esc-cp{
+    float: right;
+    margin-left: 2rem;
+}
+.img-google{
+    background-image: asset_url("google.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: $center top;
+    width: $progress-width;
+    height: 300px;
+    background-attachment: fixed;
+    
+}
+section.fuente, footer{
+    margin-top: 6rem;
+}
+hr{
+    border-top: 3px solid $color-black;
+}
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    .arequipa{
+        width: $progress-width;
+    }
+    .esc-cp{
+        width: $progress-width;
+    }
+    .img-google{
+        background-size: auto;
+        background-position: initial;
+    }
+ }
+ @media only screen and (min-width: 360px) and (max-width: 640px){
+    
+    .img-google{
+        background-repeat: repeat;
+    }
+ }
+ @media only screen and (min-width: 320px) and (max-width: 568px){
+    .arequipa{
+        width: $progress-width;
+    }
+    .esc-cp{
+        width: $progress-width;
+    }
+    .img-google{
+        background-size: auto;
+        background-position: initial;
+        background-position: left $center;
+    }
+ }
+ @media only screen and (min-width: 320px) and (max-width: 568px){
+    .arequipa{
+        width: 40%;
+    }
+    .img-google{
+        background-repeat: repeat;
+    }
+ }

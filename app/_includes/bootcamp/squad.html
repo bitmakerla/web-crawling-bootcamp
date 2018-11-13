@@ -8,41 +8,41 @@
         <div class="col-sm-5"></div>
     </div>
     <div class="container">
-        <div class="row justify-content-center ">
+        <div class="row justify-content-center">
             {% for item in site.data.squad %}
                 {% assign mod = forloop.index | modulo: 2 %}
                 {% if mod == 0 %}
-                    <div class="row justify-content-center block">
+                    <div class="row justify-content-center">
                         <div class="col-sm-2 ipad-responsive">
                             <h6 class="th-user">{{ item.name }}</h6><small>{{ item.title }}</small>
                             <div class="text-center" data-aos="zoom-in-up"
                                                         data-aos-duration="2000">
-                                {% asset '{{item.image}}' width=150 %}
+                                    {{ item.image }}
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="triangle-isosceles triangle-left" data-aos="zoom-in-up"
                                                                             data-aos-duration="2000">
-                                {{ item.description | markdownify }}
-                                <a href="{{ item.linkedin }}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                <p>{{ item.description }}</p>
+                                {{ item.linkedin }}
                             </div>
                         </div>
                     </div>
                     <br><br>
                 {% else %}
-                    <div class="row justify-content-center block">
+                    <div class="row justify-content-center">
                         <div class="col-sm-6">
                             <div class="triangle-isosceles " data-aos="zoom-in-up"
                                                             data-aos-duration="2000">
-                                {{ item.description | markdownify }}
-                                <a href="{{ item.linkedin }}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                <p>{{ item.description }}</p>
+                                {{ item.linkedin }}
                             </div>
                         </div>
                         <div class="col-sm-2">
                             <h6 class="th-user">{{ item.name }}</h6><small>{{ item.title }}</small>
                             <div class="text-center " data-aos="zoom-in-up"
                                                     data-aos-duration="2000">
-                                {% asset '{{item.image}}' width=150 %}
+                                    {{ item.image }}
                             </div>
                         </div>
                     </div>

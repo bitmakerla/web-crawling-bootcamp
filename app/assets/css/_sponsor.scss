@@ -1,0 +1,97 @@
+
+section.home-black-sponsor {
+    background-image: asset_url("home-sponsor.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: $center;
+    background-attachment: fixed;
+    position: relative;
+    height: 830px;
+    width: $progress-width;
+    margin-bottom: 2rem;
+    color: $color-white;
+    display: flex;
+    justify-content: $center;
+    align-items: $center;
+    font-family: lemon;
+    margin-bottom: 6rem;
+        .home{
+            position: absolute;
+            h1{
+                font-size: 4rem;
+                text-transform: $uppercase;
+                padding: 0 10rem;
+                }
+        }
+}
+.space{
+    margin-left: 1rem;
+}
+
+/*home--------------*/
+h2{
+    font-size: 29px;
+    font-family: 'google';
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+/*benefits*/
+div.row.justify-content-center.benefits-content{
+    margin-bottom: -48px;
+}
+p.title-benefits{
+    font-weight: 600;
+    font-family: lemon;
+    margin-bottom: -22px;
+}
+.benefits-sponsor{
+    display: flex;
+  align-items: $center;
+  justify-content: $center;
+  text-align: $center;
+}
+
+/*SEND---------*/
+#sponsor-send{
+    display: none;
+}
+.send{
+    background: $color-fnd;
+    padding: 2rem;
+}
+.btn-send{
+    color: $color-hover-btn;
+}
+p.sponsor-send{
+    font-size: 2rem;
+    font-family: Anke;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.fas.fa-play{
+    margin-right: 3rem;
+    color: $color-brand;
+}
+.register{
+    padding: 0 6.3rem;
+    margin-top: 2.5rem;
+    font-family: Anke;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+footer{
+    background: $color-black;
+    color: $color-white;
+    padding: 2.5rem 0;
+    h6{
+        margin-bottom: 0;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 640px){
+    section.home-black{
+        height: 580px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+}
