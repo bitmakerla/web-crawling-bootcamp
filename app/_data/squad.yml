@@ -1,23 +1,30 @@
-- image: <img src="../assets/images/raul.jpg" width="150" alt="Instructor" class="instructor" data-aos="zoom-in-up" data-aos-duration="2000">
+- image: raul.jpg
   name: RAUL GALLEGOS
-  title: Director Bootcamp -Instructor
-  description: "Raul es Director del Bootcamp. Se graduó con una maestría de Computer Sciencie en la <b>UCSP</b> y trabajó como consultor, escribiendo sofware en diferentes lenguajes; Director de GoodGames Labs, un startup ecosystem and first co-woking; Software Engineer in <b>Scrapinghub</b>; Mienbro de la comunidad Stackoverflow compartiendo conocimiento sobre: <em>'Scrapy, python, web-scraping, web-crawler, scrapy-spider, entre otros'</em>."
-  linkedin: <a href="https://www.linkedin.com/in/elrull/" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
+  title: Director - Instructor
+  description:
+    Founder and Director of [Bitmaker](https://bitmaker.la), started this bootcamp because of several companies needing
+    specialized professionals on the field of web crawling.
 
-- image: <img src="../assets/images/alex.jpg" width="150" height="150" alt="Instructor" class="instructor" data-aos="zoom-in-up" data-aos-duration="2000">
+
+    Raul has been working on this field for more than 5 years and learning all the steps that it involves in one of the
+    most important companies in the area ([Scrapinghub](https://scrapinghub.com)). He is also one of the main contributors
+    of web-crawling related subjects in [StackOverflow](https://stackoverflow.com/users/858913/elrull) and [Github](https://github.com/elrull).
+  linkedin: https://www.linkedin.com/in/elrull/
+
+- image: alex.jpg
   name: ALEXANDER AFANASYEV
   title: Instructor
-  description: "Alexander tiene estudios en Computer Sciencie, desarrollador de Python/Javascript. Trabajó como developer y Software Engineer en diversas compañias entre ellas Equian T3 Worldwide y Flashpoint (donde aún trabaja). Mienbro de la comunidad <b>Stackoverflow</b> con una reputación de <b>'313,508'</b> compartiendo conocimiento sobre: Python, selenium, protractor, selenium-webdriver, javascript, web-scraping, django, scrapy, angularjs, testing, entre otros."
-  linkedin: <a href="https://www.linkedin.com/in/alexanderafanasiev/" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
+  description: This is a description
+  linkedin: https://www.linkedin.com/in/alexanderafanasiev/
 
-- image: <img src="../assets/images/edgar.jpg" width="150" alt="Instructor" class="instructor" data-aos="zoom-in-up" data-aos-duration="2000">
+- image: edgar.jpg
   name: EDGAR MARCA
   title: Instructor 
-  description: "Edgar es Licenciado de Ciencias de la Computación de la UNMSM, tuvo estudios de Matemática Aplicada en el Laboratorio Nacional Scientific Computing - Brazil. Trabajó como Web developer en Lúcuma Labs (Back-end, wordpress y python) y YourTango.com; Software Engineer en <b>Scrapinghub (web-scraping and python programming)</b> y GovPredict, actualmente trabaja como <b>Security Engineer</b> en Mapbox."
-  linkedin: <a href="https://www.linkedin.com/in/edgar-marca-1ba08621/" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
+  description: Edgar description
+  linkedin: https://www.linkedin.com/in/edgar-marca-1ba08621/
 
-- image: <img  width="150" alt="Instructor" class="instructor" data-aos="zoom-in-up" data-aos-duration="2000">
+- image: wilfredo.jpg
   name: WILFREDO BARDALES
   title: Instructor 
-  description: "Wilfredo cuenta con estudios en Software-Development. Licenciado en Ingeniería Informática de la <b>UCSP</b>, graduado con una maestría en Informática en Pontifícia Universidade Católica do Rio de Janeiro. Trabajó como Ingeniero de Aplicaciones en el Banco de Crédito BCP; Software Developer en Tecgraf/PUC-Rio; Software Engineer en zAgile, Scrapinghub y HipLead (donde trabaja hasta la actualialidad)."
-  linkedin: <a href="https://www.linkedin.com/in/wilfredo-bardales-roncalla/" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
+  description: Wilfredo description
+  linkedin: https://www.linkedin.com/in/wilfredo-bardales-roncalla/
