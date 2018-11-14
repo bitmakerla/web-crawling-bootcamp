@@ -1,7 +1,8 @@
 ---
-layout: bootcamp
-title: web-crawling-bootcamp
+layout: index
+title: index
 
+title-bootcamp: web-crawling-bootcamp
 titleHeader: Bootcamp
 headerText: Explore. Creates. Connect.
 text: Hire the right developers, no matter the place latin american talent for the world.
