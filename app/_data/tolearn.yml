@@ -1,47 +1,112 @@
+curriculum:
+  -
+    prologue: <i class="far fa-calendar-check"></i> WEEK 1
+    title: Introduction to Web Scraping
+    contents-id: week-1
+    contents:
+      -
+        title: Introduction to Web Scraping
+        contents:
+        - What's web scraping
+        - Use cases
+        - Legal aspects, polite crawling
 
-- themes: <i class="far fa-calendar-check"></i> Panorama y compartir
-  workshops: <i class="fas fa-laptop-code"></i> Habilidades, herramientas y estrategias
-  others: <i class="fa fa-robot"></i> Desarrollar y compartir ideas utilizand
-  
-- themes: <i class="far fa-calendar-check"></i> Habilidades
-  workshops: <i class="fas fa-laptop-code"></i>  hABILIDADES
-  others: <i class="fa fa-robot"></i> Desarrollar y comparti
+      -
+        title: How to extract web data
+        contents:
+          - Page analysis
+          - "Approaches: Regex, Selectors, BeautifulSoup"
+          - Building a simple Web Scraper
 
-- themes: <i class="far fa-calendar-check"></i> Panoramay compartir
-  workshops: <i class="fas fa-laptop-code"></i> herramientas y estrategias
-  others: <i class="fa fa-robot"></i> Desarrollar y
+  -
+      prologue: <i class="far fa-calendar-check"></i> WEEK 2
+      title: Scraping with Python
+      contents-id: week-2
+      contents:
+        -
+          title: Scrapy
+          contents:
+          - Installation
+          - Creating and running a simple spider
 
-- themes: <i class="far fa-calendar-check"></i> Panorama
-  workshops: <i class="fas fa-laptop-code"></i> Habilidades,as y estrategias
-  others: <i class="fa fa-robot"></i> Desarrollar eas utilizand
+        -
+          title: Selectors
+          contents:
+            - XPath
+            - CSS
 
-- themes: <i class="far fa-calendar-check"></i> Pany compartir
-  workshops: <i class="fas fa-laptop-code"></i> Hatas y estrategias
-  others: <i class="fa fa-robot"></i>  compartir ideas utilizand
+        -
+          title: Dissecting a Crawler
+          contents:
+            - Types of spiders
+            - Items
+            - Item Loaders
+            - Callbacks
+            - "Pipelines: Cleaning output data"
+            - Review a real Crawler
 
-- themes: <i class="far fa-calendar-check"></i> y compartir Panorama
-  workshops: <i class="fas fa-laptop-code"></i> rramientas y estrategias
-  others: <i class="fa fa-robot"></i> Desarrollrtir ideas utilizand
+        -
+          title: Middlewares
+          contents:
+            - Pipelines
+            - Extensions
+            - Item Downloaders
+#            - Review some Extensions
+#            - Review some Pipelines
 
-- themes: <i class="far fa-calendar-check"></i> y compartirma
-  workshops: <i class="fas fa-laptop-code"></i> Habiamientas y estrategias
-  others: <i class="fa fa-robot"></i> Dir ideas utilizand
+  -
+        prologue: <i class="far fa-calendar-check"></i> WEEK 3
+        title: Advanced Web Crawling
+        contents-id: week-3
+        contents:
+        -
+          title: Other sources for web scraping
+          contents:
+            - REST APIs
+            - XML APIs
+            - Sitemaps
 
-- themes: <i class="far fa-calendar-check"></i> Panoray compartir
-  workshops: <i class="fas fa-laptop-code"></i> trategias
-  others: <i class="fa fa-robot"></i> Desarrollar 
+        -
+          title: Form based scraping
+          contents:
+            - Using forms
+            - Authentication sites
+            - POST Requests
+            - Token-based sites
+            - Crawling an ASPX page
 
-- themes: <i class="far fa-calendar-check"></i> Panorama
-  workshops: <i class="fas fa-laptop-code"></i> Habilidades, estrategias
-  others: <i class="fa fa-robot"></i> Desarrollutilizand
+        -
+          title: Scraping Dynamic Content
+          contents:
+            - Introduction to AJAX
+            - Executing Javascript
 
-- themes: <i class="far fa-calendar-check"></i> Panoramay compartir
-  workshops: <i class="fas fa-laptop-code"></i> Habrramientas y estrategias
-  others: <i class="fa fa-robot"></i> Desarrollar y coideas utilizand
+        -
+          title: Headless rendering
+          contents:
+            - Splash
 
-- name: THEMES
-- name: WORKSHOPS
-- name: OTHERS
+  -
+        prologue: <i class="far fa-calendar-check"></i> WEEK 4
+        title: Advanced Topics
+        contents-id: week-4
+        contents:
+        -
+          title: Scrapy Cloud
 
+        -
+          title: Antibot Protection
+          contents:
+            - Throttling
+            - Captcha
+            - Bot detection
 
+        -
+          title: Proxy rotation services
 
+  -
+        prologue: <i class="far fa-calendar-check"></i> WEEK 9-10
+        contents-id: week-9-10
+        contents:
+        -
+          title: Hands-on practices

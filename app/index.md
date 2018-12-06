@@ -3,11 +3,11 @@ layout: index
 title: index
 
 title-bootcamp: web-crawling-bootcamp
-titleHeader: Bootcamp
-headerText: Explore. Creates. Connect.
-text: Hire the right developers, no matter the place latin american talent for the world.
+titleHeader: Web Scraping Bootcamp
+headerText: Explore. Create. Connect.
+text: Hire the right developers, no matter the place. Latin American talent for the world.
 bttnh1: EXPLORE OUR PROGRAM
-apply: START NOW
+apply: APPLY NOW
 
 navhome: Home
 firstmenu: Solutions
@@ -20,24 +20,24 @@ sponsor: SPONSORS
 
 hometitle: WHO 
 hometl: WE ARE
-description: We have employment insertion to students or graduates, from the computer science career, and continue their studies with us; them by putting in our work network. <b>Allowing triple your income</b>, transform their lives and develop in Data science with a 3-month intensive learning.
+description: A 3-month intensive training in Web Scraping. Students will learn how to extract data from virtually any website. After graduating, participants will be able to apply to projects by companies from our work network. Apply and get the chance to earn 1000 USD/month*.
 
 section2title: OUR
 section2tl: SOLUTIONS
 
-data: Data Sciencie
+data: Data Science
 aplysection: Leading the way to change the way people and companies make decisions. It creates an environment that cultivates the curiosity that data narrators share.
 
-sistematitle: HOW
-sistematl: IT WORKS?
-bootcamp: 3 month intensive learning (Monday to Friday, 8 hours onsite).
-bootsmall: When you finish your studies with us we will get you work in the TEC industry.
-red: Network to graduated
-redbootcamp: Being part of the network of graduates of the Bootcamp Bitmaker you will be able to obtain the benefits, workshops, trainings, events, projects, belonging to the work network of Bitmaker.
-redsmall: Keep in touch with us to access benefits we have for you.
+sistematitle: BOOTCAMP
+sistematl: OVERVIEW
+bootcamp: Intensive learning for 3 months. Monday to Friday, 8 hours onsite.
+bootsmall: Learn how to extract data from websites.
+red: For graduates
+redbootcamp: Access the benefits, workshops, trainings, events, projects, belonging to our work network.
+redsmall: Keep in touch to know more.
 
-tolearntitle: WHAT YOU
-tolearntl: WILL LEARN
+tolearntitle: BOOTCAMP
+tolearntl: CURRICULUM
 titleLearn: THEMES AND WORKSHOPS
 themes: Themes
 workshops: Workshops
@@ -49,14 +49,14 @@ squadtl: TEAM
 to: FREQUENTLY 
 toask: ASKED QUESTIONS
 headingOne: What is the Bootcamp?
-headingTwo: Why Choose Bitmaker's Bootcamp?
-firstWhy: Because in our program you will receive classes of expert professors, benefits of graduates and support of instructors during the process.
-secondWhy: Because we will connect and position you with the best employers.
+headingTwo: Why choose Bitmaker's Bootcamp?
+firstWhy: You will receive classes and support from expert instructors.
+secondWhy: We will also connect you with the best employers from our network.
 headingThree: Where are the classes?
 headingFour: Can I study online?
-presencial: The Bootcamp is presencial. You will have classes from Monday to Friday, for 8 hours a day for 3 months, with obligatory assistance.
-headingFive: What kind of companies will your graduates work in?
-work-graduates: lalala
+presencial: NO. Your physical presence is required for the Bootcamp. Classes will be Monday to Friday, 8 hours a day, for a period of 3 months.
+headingFive: What kind of companies can I work in after graduating?
+work-graduates: TO BE ANNOUNCED...
 
 contact: APPLY NOW
 contacto: WELCOME TO THE ADMISSIONS PORTAL OF OUR BOOTCAMP
@@ -64,9 +64,8 @@ user: NAME *
 email: EMAIL *
 file: Upload CV *
 adjunt: File upload PDF format
-message: MESSAGE
+message: COVER LETTER
 register: Register
 
 footer: ©Copyright 2018 Bitmaker all rights reserved
 ---
-<h1>{{ "Hello" | downcase }}</h1>
