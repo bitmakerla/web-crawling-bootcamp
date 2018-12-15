@@ -15,6 +15,7 @@ curriculum:
         title: How to extract web data
         contents:
           - Page analysis
+          - Locating content from the DOM
           - "Approaches: Regex, Selectors, BeautifulSoup"
           - Building a simple Web Scraper
 
@@ -24,16 +25,18 @@ curriculum:
       contents-id: week-2
       contents:
         -
-          title: Scrapy
+          title: Introduction to Scrapy
           contents:
           - Installation
+          - Setting up the development environment
           - Creating and running a simple spider
+          - Exporting results to JSON
 
         -
           title: Selectors
           contents:
-            - XPath
-            - CSS
+            - CSS selectors
+            - XPath selectors
 
         -
           title: Dissecting a Crawler
@@ -41,9 +44,9 @@ curriculum:
             - Types of spiders
             - Items
             - Item Loaders
+            - Input and Output Processors
             - Callbacks
-            - "Pipelines: Cleaning output data"
-            - Review a real Crawler
+            - Reviewing a real Crawler
 
         -
           title: Middlewares
@@ -51,8 +54,6 @@ curriculum:
             - Pipelines
             - Extensions
             - Item Downloaders
-#            - Review some Extensions
-#            - Review some Pipelines
 
   -
         prologue: <i class="far fa-calendar-check"></i> WEEK 3
@@ -80,10 +81,7 @@ curriculum:
           contents:
             - Introduction to AJAX
             - Executing Javascript
-
-        -
-          title: Headless rendering
-          contents:
+            - Headless rendering
             - Splash
 
   -
@@ -93,9 +91,15 @@ curriculum:
         contents:
         -
           title: Scrapy Cloud
+          contents:
+            - Creating an account
+            - Getting an API key
+            - Creating a project
+            - Deploying spiders to the cloud
+            - Running spiders periodically
 
         -
-          title: Antibot Protection
+          title: Anti-Bot Measures
           contents:
             - Throttling
             - Captcha
@@ -103,10 +107,13 @@ curriculum:
 
         -
           title: Proxy rotation services
+          contents:
+            - Crawlera
 
   -
-        prologue: <i class="far fa-calendar-check"></i> WEEK 9-10
-        contents-id: week-9-10
+        prologue: <i class="far fa-calendar-check"></i> WEEK 5-10
+        contents-id: week-5-10
+        title: Hands-on practices
         contents:
         -
-          title: Hands-on practices
+          title: Crawling real websites

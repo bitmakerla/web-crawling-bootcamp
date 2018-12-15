@@ -28,7 +28,7 @@ text-premium: 'Término que hemos utilizado para expresar aquellas experiencias 
 
 contact: Se parte de las empresas que confian en nosotros, ¡únete!
 unete: Únete
-title-send: ÚNETE CON NOSOTROS
+title-send: ÚNETE A NOSOTROS
 title-ins: INSCRÍBETE A NUESTRA LISTA
 send: SEND
 

@@ -401,8 +401,6 @@ label{
     color: $color;
 }
 i.fab.fa-linkedin-in{
-    position: absolute;
-    top: 0;
     margin: 10px;
     color: #fff;
     background: #0077b5;
@@ -548,7 +546,7 @@ input.file{position:absolute; display: none;}
     img.home-demo{
         height: 216px;
     }
-    img.bots{
+    img.border-{
         height: 370px;
     }
     section.tolearn .twothers{

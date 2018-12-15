@@ -11,10 +11,10 @@ bootcamp: bootcamp
 header: Why Arequipa?
 header-home: ¿Porqué Arequipa?
 
-title:  Las cosas que debes saber sobre Arequipa
-title-sc: y su surgimiento en el ecosistema de computación
+title:  Everything you must know about Arequipa
+title-sc: and its rise in the Computer Science ecosystem
 
-concept1: Actualmente hemos avanzado considerablemente en la economía digital.
+concept1: The digital economy has taken over the world.
 concept2: Se viene un buen futuro para los profesionales de la computación, pues estamos en un espacio propio y eso es lo que ha generado todo el impacto en todo el planeta, se vienen muy buenos tiempos, estamos comenzando a entender y masificar. 
 concept3: 'Es claro que Ciencias de la Computación requiere de profesionales que creen nuevos productos y soluciones tecnológicas con proyección internacional. Todo indica el inevitable avance en la economía digital y la importancia del crecimiento explosivo de las empresas que se adapten.  A continuación, consideramos los puntos más importantes sobre "Por que Arequipa" que toda empresa en búsqueda de "Talento digital para la transformación" debería tomar en cuenta:'
 

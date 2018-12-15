@@ -22,7 +22,7 @@ hometitle: WHO
 hometl: WE ARE
 description: A 3-month intensive training in Web Scraping. Students will learn how to extract data from virtually any website. After graduating, participants will be able to apply to projects by companies from our work network. Apply and get the chance to earn 1000 USD/month*.
 
-section2title: OUR
+sectiFon2title: OUR
 section2tl: SOLUTIONS
 
 data: Data Science
