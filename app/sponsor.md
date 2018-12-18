@@ -6,30 +6,30 @@ permalink: /sponsor/
 title-sponsors: Web Sponsors
 
 bootcamp: Bootcamp
-blog: Porqué Arequipa?
+blog: Why Arequipa?
 
-title: Se parte de nuestra transformación
-subtitle: Talento, oportunidades, innovación
-btn-header: como colaborar
+title: Become part of our transformation
+subtitle: Talent, opportunity, innovation
+btn-header: Yes, I want to collaborate
 
-home-title: Cómo Bitmaker te ayuda en tu cambio y transformación
-text: Todo indica el inevitable avance en la economía digital y la importancia del crecimiento explosivo de las empresas que se adaptan. El crecimiento de nuestro "Talento digital para la transformación" que potenciará los equipos digitales. <br> <br>  Conoce <a href="#benefits"> <em>como colaborar</em> </a>  y cómo puedes contratar nuestros talentos.
+home-title: How Bitmaker can help transform your company
+text: The digital economy keeps growing every year, and the companies that adapt achieve explosive growth.
 
-benefits: COLABORA
-benefits-sc:  CON NOSOTROS
-sponsor: 'Ser patrocinador :'
-text-sponsor: Además de conocer cuáles son los beneficios para tu empresa, su visibilidad y RSC. Dentro del Bootcamp organizaremos eventos networking con empresas y Demo Days, donde la colaboración de sponsor es esencial y puede ir desde la cobertura mediática del evento hasta diferentes provisiones. Contáctanos para conocer cómo funciona.
-student: 'Contrata alumnos :'
-text-student: "¿Buscas un perfil de desarrollador? Los graduados del bootcamp tienen no sólo los conocimientos técnicos, sino tambien habilidades que son necesarias en el trabajo: iniciativa, perseverancia, trabajo en equipo, entre otros. Contáctanos para acceder a la base de datos y conocer más detalles sobre los graduados."
-instructor: 'Ser mentor :'
-text-instructor: Ser parte de la transformación, contarnos mediante una visita de la experiencoa en el mundo del desarrollo, para enseñar un tema concreto a los alumnos, o para conocer a los alumnos y buscar el mejor talento para su empresa ¡Contámos contigo!
-exp-premium: 'Experiencias premium :'
-text-premium: 'Término que hemos utilizado para expresar aquellas experiencias del que serás parte: Desarrollo Digital de nuestro Talento Digital, de la creación de nuevos productos y soluciones tecnológicas con proyecciones internacionales.'
+benefits: COLLABORATE
+benefits-sc:  WITH US
+sponsor: 'Become a sponsor:'
+text-sponsor: Learn about benefits for your company, your visibility and corporate social responsibility. During the Bootcamp we will organize networking events and Demo Days with companies, in which collaboration from the sponsor is essential and can go from media coverage of the event, to all kinds of provisions. Contact us to learn more. 
+student: 'Hire alumni :'
+text-student: "Looking for trained developers? Bootcamp graduates not only have technical knowledge, also they have the necessary abilities for work: initiative, perseverance, teamwork, etc. Contact us to get access to the graduates databases and learn more about them."
+instructor: 'Become a mentor :'
+text-instructor: Become part of the transformation, get in touch with us to arrange a visit and get to know about the students, teach them about specific topics you'd like to share, and select the best talent for your company. We count on you!
+exp-premium: 'Premium experiences :'
+text-premium: 'You will be part of the creation of new technological products and solutions with international projections.'
 
-contact: Se parte de las empresas que confian en nosotros, ¡únete!
-unete: Únete
-title-send: ÚNETE A NOSOTROS
-title-ins: INSCRÍBETE A NUESTRA LISTA
+contact: Become part of the companies that trust us!
+unete: I want to join!
+title-send: JOIN US
+title-ins: SUBSCRIBE OUR MAILING LIST
 send: SEND
 
 footer: ©Copyright 2018 Bitmaker all rights reserved
