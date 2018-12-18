@@ -2,42 +2,35 @@
   name: RAUL GALLEGOS
   title: Director - Instructor
   description:
-    Founder and Director of [Bitmaker](https://bitmaker.la), started this bootcamp because of several companies needing
-    specialized professionals on the field of web crawling.
-    Raul has been working on this field for more than 5 years and learning all the steps that it involves in one of the
-    most important companies in the area ([Scrapinghub](https://scrapinghub.com)). He is also one of the main contributors
-    of web-crawling related subjects in [StackOverflow](https://stackoverflow.com/users/858913/elrull) and [Github](https://github.com/elrull).
+    Founder and Director of [Bitmaker](https://bitmaker.la), has been working in this field for more than 5 years and learning all the steps
+    that it involves in one of the most important companies in the area ([Scrapinghub](https://scrapinghub.com)). He is also one of the main contributors
+    of web-crawling related subjects on [StackOverflow](https://stackoverflow.com/users/858913/elrull) and [Github](https://github.com/elrull).
   linkedin: https://www.linkedin.com/in/elrull/
 
 - image: alex.jpg
   name: ALEXANDER AFANASYEV
   title: Instructor
   description:
-    Founder and Director of [Bitmaker](https://bitmaker.la), started this bootcamp because of several companies needing
-    specialized professionals on the field of web crawling.
-    Raul has been working on this field for more than 5 years and learning all the steps that it involves in one of the
-    most important companies in the area ([Scrapinghub](https://scrapinghub.com)). He is also one of the main contributors
-    of web-crawling related subjects in [StackOverflow](https://stackoverflow.com/users/858913/elrull) and [Github](https://github.com/elrull).
+    Alexander holds a M.S. degree from Saratov State University and has been working as a software engineer for more than 10 years.
+    He has been a very active contributor to web-scraping related topics on [StackOverflow](https://stackoverflow.com/users/771848/alecxe)
+    and [Github](https://github.com/alecxe) and is currently working at the cyber-security company FlashPoint,
+    using his web-scraping skills for business threat intelligence gathering.
   linkedin: https://www.linkedin.com/in/alexanderafanasiev/
-
-- image: edgar.jpg
-  name: EDGAR MARCA
-  title: Instructor 
-  description:
-    Founder and Director of [Bitmaker](https://bitmaker.la), started this bootcamp because of several companies needing
-    specialized professionals on the field of web crawling.
-    Raul has been working on this field for more than 5 years and learning all the steps that it involves in one of the
-    most important companies in the area ([Scrapinghub](https://scrapinghub.com)). He is also one of the main contributors
-    of web-crawling related subjects in [StackOverflow](https://stackoverflow.com/users/858913/elrull) and [Github](https://github.com/elrull).
-  linkedin: https://www.linkedin.com/in/edgar-marca-1ba08621/
 
 - image: wilfredo.jpg
   name: WILFREDO BARDALES
-  title: Instructor 
+  title: Instructor
   description:
-    Founder and Director of [Bitmaker](https://bitmaker.la), started this bootcamp because of several companies needing
-    specialized professionals on the field of web crawling.
-    Raul has been working on this field for more than 5 years and learning all the steps that it involves in one of the
-    most important companies in the area ([Scrapinghub](https://scrapinghub.com)). He is also one of the main contributors
-    of web-crawling related subjects in [StackOverflow](https://stackoverflow.com/users/858913/elrull) and [Github](https://github.com/elrull).
+   Wilfredo holds a M.Sc degree in computer science from the Pontifical Catholic University of Rio de Janeiro (PUC-Rio),
+   and has been working as a software engineer for more than 7 years. He's experience teaching design of algorithms at the San Pablo Catholic University
+   and has worked in one of the most important companies in the field ([Scrapinghub](https://scrapinghub.com)).
   linkedin: https://www.linkedin.com/in/wilfredo-bardales-roncalla/
+
+- image: edgar.jpg
+  name: EDGAR MARCA
+  title: Instructor
+  description:
+   Edgar (matiskay) is currently a Security Engineer at [Mapbox](https://www.mapbox.com/) where he helps to secure maps on the cloud.
+   Previosly, he worked at [GovPredict](https://govpredict.com/) where he helped to build a inteligent political search engine. He has been involved in
+   several web crawling projects, you can check all his contributions in his [Github profile](https://github.com/matiskay).
+  linkedin: https://www.linkedin.com/in/edgar-marca-1ba08621/
