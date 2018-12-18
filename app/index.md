@@ -5,7 +5,7 @@ title: index
 title-bootcamp: web-crawling-bootcamp
 titleHeader: Web Scraping Bootcamp
 headerText: Explore. Create. Connect.
-text: Hire the right developers, no matter the place. Latin American talent for the world.
+text: Become an expert in web scraping and get an amazing job in very profitable companies 
 bttnh1: EXPLORE OUR PROGRAM
 apply: APPLY NOW
 
@@ -20,7 +20,8 @@ sponsor: SPONSORS
 
 hometitle: WHO 
 hometl: WE ARE
-description: A 3-month intensive training in Web Scraping. Students will learn how to extract data from virtually any website. After graduating, participants will be able to apply to projects by companies from our work network. Apply and get the chance to earn 1000 USD/month*.
+description: A 10-week intensive training in Web Scraping. Students will learn how to extract data from virtually any website. 
+    Graduates will be able to get jobs earning 1000, 2000 or even 3000 USD/month.
 
 sectiFon2title: OUR
 section2tl: SOLUTIONS
@@ -30,7 +31,7 @@ aplysection: Leading the way to change the way people and companies make decisio
 
 sistematitle: BOOTCAMP
 sistematl: OVERVIEW
-bootcamp: Intensive learning for 3 months. Monday to Friday, 8 hours onsite.
+bootcamp: Intensive learning for 10 weeks. Monday to Friday, 4 hours onsite.
 bootsmall: Learn how to extract data from websites.
 red: For graduates
 redbootcamp: Access the benefits, workshops, trainings, events, projects, belonging to our work network.
@@ -54,7 +55,7 @@ firstWhy: You will receive classes and support from expert instructors.
 secondWhy: We will also connect you with the best employers from our network.
 headingThree: Where are the classes?
 headingFour: Can I study online?
-presencial: NO. Your physical presence is required for the Bootcamp. Classes will be Monday to Friday, 8 hours a day, for a period of 3 months.
+presencial: NO. Your physical presence is required for the Bootcamp. Classes will be Monday to Friday, 4 hours a day, for a period of 10 weeks.
 headingFive: What kind of companies can I work in after graduating?
 work-graduates: TO BE ANNOUNCED...
 
